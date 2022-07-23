@@ -1,5 +1,5 @@
 @import 'animate.css';
-@import '~loaders.css/src/animations/pacman.scss';
+@import '~loaders.css/src/animations/ball-scale-multiple.scss';
 
 .App {
   text-align: center;
@@ -40,7 +40,7 @@
   }
 }
 
-$primary-color: #ffd700;
+$primary-color: #FFB580;
 
 @font-face {
   font-family: 'Helvetica';
@@ -58,6 +58,8 @@ $primary-color: #ffd700;
   font-family: 'Coolvetica';
   src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2');
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
 
 input, 
 textarea {

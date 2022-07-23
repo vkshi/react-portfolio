@@ -1,16 +1,15 @@
 import './index.scss'
 import { Link } from 'react-router-dom'
 import { NavLink } from 'react-router-dom'
-import LogoKi from '../../assets/images/ki-logo.svg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faHome, faUser, faFolderOpen } from '@fortawesome/free-solid-svg-icons'
+import KiLogo from '../../assets/images/KiLogo'
 
 const Sidebar = () => (
     <div className='nav-bar'>
         <Link className='logo' to='/'>
-            <img src={LogoKi} fill="#FFFFFF" alt="logo" />
-            <p href="/">Ki Shi</p>
+            <KiLogo className="ki-logo" />
         </Link>
         <nav>
             <NavLink exact="true" activeclassname="active" to="/">
@@ -21,6 +20,9 @@ const Sidebar = () => (
             </NavLink>
             <NavLink exact="true" activeclassname="active" className="contact-link" to="/contact">
                 <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
+            </NavLink>
+            <NavLink exact="true" activeclassname="active" className="category-link" to="/category">
+                <FontAwesomeIcon icon={faFolderOpen} color="#4d4d4e" />
             </NavLink>
         </nav>
         <ul>

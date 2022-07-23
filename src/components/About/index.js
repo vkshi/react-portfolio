@@ -24,6 +24,7 @@ const About = () => {
   return (
     <>
       <div className="container about-page">
+      <div className="container tab"></div>
         <div className="text-zone">
           <h1>
             <AnimatedLetters
@@ -61,7 +62,7 @@ const About = () => {
         </div>
       </div>
 
-      <Loader type="pacman" />
+      <Loader type="ball-scale-multiple" />
     </>
   );
 };
