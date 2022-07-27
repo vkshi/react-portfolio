@@ -20,8 +20,8 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/category" element={<Category />} />
         <Route path="/upenn" element={<UPenn />} />
-        <Route path="/moesif" element={<Moesif />} />
-        <Route path="/freelance" element={<Freelance />} />
+        <Route path="/upenn" element={<Moesif />} />
+        <Route path="/upenn" element={<Freelance />} />
         </Route>
       </Routes>
     </div>
