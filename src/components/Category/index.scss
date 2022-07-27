@@ -4,6 +4,8 @@
     padding: 0;
     margin: 0;
     display: flex;
+    top: 0;
+
 
     .category {
         width: 32%;
@@ -17,11 +19,6 @@
         transition: width 1s ease-in-out;
     }
 
-    .tab {
-        width: 70px;
-    }
-
-
     .upenn {
         background: linear-gradient(to top right, #011F5B 50%, #990000 50%);
         color: #FFFFFF;
@@ -34,7 +31,7 @@
 
     .moesif {
         background-color: #ff4f00;
-        color: #000000;
+        color: #292F33;
 
         &:hover {
             transition: width 1s ease-in-out;

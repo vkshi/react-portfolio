@@ -44,7 +44,7 @@ const Contact = () => {
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={["C", "O", "N", "T", "A", "C", "T", " ", "M", "E"]}
+              strArray={"CONTACT ME".split("")}
               index={15}
             />
           </h1>
@@ -86,7 +86,8 @@ const Contact = () => {
         <div className="info-map">
             Ki Shi, <br />
             San Franscico, CA <br />
-            <a href = "mailto: vkshi.vs@gmail.com" >vkshi.vs@gmail.com</a> <br />
+            <a href = "mailto: vkshi.vs@gmail.com" >Email</a> | <a href = "https://www.linkedin.com/in/vicky-shi-31483b117/" >LinkedIn</a> 
+            <br /><br />
             Open to remote work!
           </div>
           <MapContainer

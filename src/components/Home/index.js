@@ -7,7 +7,7 @@ import Loader from "react-loaders";
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
-    const jobArray= ['D', 'e ', 's', 'i', 'g', 'n', 'e', 'r', ' ', '+', ' ', 'D', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r']
+    const jobArray= ["designer + developer".split("")]
 
     useEffect(() => {
         setTimeout(() => {
@@ -40,7 +40,7 @@ const Home = () => {
                 <h2>Frontend Developer | UI/UX Designer | Graphic Designer</h2>
                 <div className="button-container">
                     <Link to="/contact" className='flat-button'>RESUME</Link>
-                    <Link to="/portfolio" className='flat-button'>PROJECTS</Link>
+                    <Link to="/category" className='flat-button'>PROJECTS</Link>
                     <Link to="/contact" className='flat-button'>CONTACT ME</Link>
                 </div>
             </div>
