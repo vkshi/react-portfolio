@@ -24,12 +24,13 @@ const About = () => {
   return (
     <>
       <div className="container about-page">
+      <div className="container tab"></div>
         <div className="text-zone">
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={["A", "B", "O", "U", "T", " ", "M", "E"]}
-              idx={15}
+              strArray={"ABOUT ME".split("")}
+              index={15}
             />
           </h1>
           <p>Hi, my name is Ki.</p>
@@ -61,7 +62,7 @@ const About = () => {
         </div>
       </div>
 
-      <Loader type="pacman" />
+      <Loader type="ball-scale-multiple" />
     </>
   );
 };

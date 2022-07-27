@@ -1,7 +1,10 @@
 .home-page {
+  .tab {
+    width: 70px;
+}
   .text-zone {
     position: absolute;
-    left: 10%;
+    left: calc(10% + 60px);
     top: 50%;
     transform: translateY(-50%);
     width: 40%;
@@ -15,65 +18,95 @@
     font-family: "Coolvetica";
     font-weight: 400;
 
-    &::before {
-      content: "<h1>";
-      font-family: "La Belle Aurore";
-      color: #ffd700;
-      font-size: 18px;
-      position: absolute;
-      margin-top: -40px;
-      left: 15px;
-      opacity: 0.6;
-    }
-
-    &::after {
-      content: "</h1>";
-      font-family: "La Belle Aurore";
-      color: #ffd700;
-      font-size: 18px;
-      position: absolute;
-      margin-top: 18px;
-      margin-left: 20px;
-      animation: fadeIn 1s 1.7s backwards;
-      opacity: 0.6;
-    }
-
-    img {
-      width: 32px;
-      margin-left: 20px;
-      opacity: 0;
-      height: auto;
-      animation: rotateIn 1s linear both;
-      animation-delay: 1.4s;
-    }
-
-    h2 {
-      color: #8d8d8d;
-      margin-top: 20px;
-      font-weight: 400;
-      font-family: sans-serif;
-      letter-spacing: 3px;
-      animation: fadeIn 1s 1.8s backwards;
-    }
+   .first-name {
+    font-family: 'Paytone One', sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+    padding: 0 8px;
+   }
   }
 
+  h2 {
+    color: #FFB580;
+    margin-top: 20px;
+    font-weight: 400;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    animation: fadeIn 1s 1.8s backwards;
+  }
+
+  .button-container {
+    width: 100%;
+    right: 15%;
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-evenly;
+
   .flat-button {
-    color: #ffd700;
+    color: #FFF;
     font-size: 13px;
     font-weight: 400;
     letter-spacing: 4px;
     font-family: sans-serif;
     text-decoration: none;
-    padding: 10px 18px;
-    border: 1px solid #ffd700;
-    margin-top: 25px;
-    float: left;
+    padding: 15px 20px;
+    border: 1px solid #FFF;
     animation: fadeIn 1s 1.8s backwards;
     white-space: nowrap;
 
     &:hover {
-      background: #ffd700;
-      color: #333;
+      background: #FFB580;
+      border: 1px solid #FFB580;
+      color: #333366;
+      font-weight: 600;
     }
+  }
+}
+}
+
+.ki-logo-outline {
+  z-index: -2;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 15%;
+  bottom: 0;
+  right: 0;
+  left: auto;
+  margin: auto;
+  transform: rotateZ(30deg) !important;
+  animation: colorRotate 10s linear infinite;
+}
+
+@keyframes colorRotate {
+  from {
+    stroke: #FF8080;
+  }
+  12.5% {
+    stroke: #FFB580;
+  }
+  25% {
+    stroke: #FFEA80;
+  }
+  37.5% {
+    stroke: #8AFF80;
+  }
+  50% {
+    color: #80FFDF;
+  }
+  62.5% {
+    stroke: #80B5FF;
+  }
+  75% {
+    stroke: #8A80FF;
+  }
+  87.5% {
+    stroke: #D580FF;
+  }
+  100% {
+    stroke: #FF80CA;
+  }
+  0% {
+    color: #FF80CA;
   }
 }
