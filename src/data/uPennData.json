@@ -1,33 +1,153 @@
 {
     "portfolio": [
         {
-            "cover": "../../../assets/abstract1.png",
-            "title": "Abstract1",
-            "description":"Used Illustrator",
+            "cover": "../../../assets/seniorproject1.png",
+            "title": "Senior Project: Visual Component",
+            "description":"Photoshop",
+            "url":""
+        },
+        {
+            "cover": "../../../assets/seniorproject2.png",
+            "title": "Senior Project: Research Component",
+            "description":"Academic Research + Writing",
+            "url":""
+        },
+        {
+            "cover": "../../../assets/cottoncandyzine5.png",
+            "title": "Cotton Candy Zine",
+            "description":"InDesign, Illustrator, Photoshop",
+            "url":""
+        },
+        {
+            "cover": "../../../assets/riso7.png",
+            "title": "Identity Posters Series",
+            "description":"Illustrator, Photoshop",
+            "url":""
+        },
+        {
+            "cover": "../../../assets/mapbox.png",
+            "title": "Map Project",
+            "description":"MapBox, HTML, CSS",
+            "url":""
+        },
+        {
+            "cover": "../../../assets/bposter1.png",
+            "title": "Biennial Identity Project: Poster",
+            "description":"Illustrator",
+            "url":""
+        },
+        {
+            "cover": "../../../assets/bprint1.png",
+            "title": "Biennial Identity Project: Print Media",
+            "description":"Illustrator, InDesign",
+            "url":""
+        },
+        {
+            "cover": "../../../assets/bframe3.png",
+            "title": "Biennial Identity Project: Video",
+            "description":"After Effects",
+            "url":""
+        },
+        {
+            "cover": "../../../assets/bweb1.png",
+            "title": "Biennial Identity Project: Website",
+            "description":"Figma",
+            "url":""
+        },
+        {
+            "cover": "../../../assets/helpfulapp.png",
+            "title": "REPRESENT!",
+            "description":"Figma, UI Research",
+            "url":"https://www.figma.com/file/ydQpsqHyE1rlsmVS8RU9fC/Helpful-App?node-id=17%3A42"
+        },
+        {
+            "cover": "../../../assets/btstyle.png",
+            "title": "BT.STYLE",
+            "description":"HTML, CSS, Photoshop, Figma",
+            "url":"https://vkshi.github.io/btstyle/"
+        },
+        {
+            "cover": "../../../assets/2020series.png",
+            "title": "2020 Series",
+            "description":"HTML, CSS",
+            "url":"https://vkshi.github.io/2020series/index.html"
+        },
+        {
+            "cover": "../../../assets/codingpractices1.png",
+            "title": "Coding Practices: CSS Animation",
+            "description":"HTML, CSS",
+            "url":""
+        },
+        {
+            "cover": "../../../assets/codingpractices2.png",
+            "title": "Coding Practices: CSS Media Queries",
+            "description":"HTML, CSS",
+            "url":""
+        },
+        {
+            "cover": "../../../assets/codingpractices3.png",
+            "title": "Coding Practices: jQuery",
+            "description":"HTML, CSS, jQuery",
+            "url":""
+        },
+        {
+            "cover": "../../../assets/stilllife4.png",
+            "title": "Still-Life",
+            "description":"Illustrator, Photoshop, Processing",
+            "url":""
+        },
+        {
+            "cover": "../../../assets/wearable.jpg",
+            "title": "Wearable",
+            "description":"Processing, Photoshop",
+            "url":""
+        },
+        {
+            "cover": "../../../assets/productdsgn.png",
+            "title": "Product Design: Sirence",
+            "description":"Illustrator",
+            "url":""
+        },
+        {
+            "cover": "../../../assets/branding1.png",
+            "title": "Branding Project",
+            "description":"Illustrator, InDesign, Photoshop",
+            "url":""
+        },
+        {
+            "cover": "../../../assets/bookcover.png",
+            "title": "Book Cover Design Project",
+            "description":"Illustrator",
             "url":""
         },
         {
             "cover": "../../../assets/abstract1.png",
-            "title": "Abstract1",
-            "description":"Used Illustrator",
+            "title": "Sound-Visual Design",
+            "description":"Illustrator",
             "url":""
         },
         {
-            "cover": "../../../assets/abstract1.png",
-            "title": "Abstract1",
-            "description":"Used Illustrator",
+            "cover": "../../../assets/abstract2.png",
+            "title": "Poem-Visual Design",
+            "description":"Illustrator",
             "url":""
         },
         {
-            "cover": "../../../assets/abstract1.png",
-            "title": "Abstract1",
-            "description":"Used Illustrator",
+            "cover": "../../../assets/storyboard2.png",
+            "title": "Storyboard",
+            "description":"Photoshop, Premiere Pro, After Effects",
             "url":""
         },
         {
-            "cover": "../../../assets/abstract1.png",
-            "title": "Abstract1",
-            "description":"Used Illustrator",
+            "cover": "../../../assets/remix2.png",
+            "title": "Remixing A Graph",
+            "description":"Illustrator",
+            "url":""
+        },
+        {
+            "cover": "../../../assets/tableau2.png",
+            "title": "Graphing A Dataset Over Time",
+            "description":"Tableau",
             "url":""
         }
     ]

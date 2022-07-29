@@ -4,6 +4,7 @@ import AnimatedLetters from '../AnimatedLetters';
 import './index.scss';
 import KiLogoOutline from '../../assets/images/KiLogoOutline'
 import Loader from "react-loaders";
+import Resume from "../../assets/resume/SHI_VICKY_RESUME.pdf"
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -39,7 +40,7 @@ const Home = () => {
                 </h1>
                 <h2>Frontend Developer | UI/UX Designer | Graphic Designer</h2>
                 <div className="button-container">
-                    <Link to="/contact" className='flat-button'>RESUME</Link>
+                    <a href={Resume} className='flat-button' target="_blank">RESUME</a>
                     <Link to="/category" className='flat-button'>PROJECTS</Link>
                     <Link to="/contact" className='flat-button'>CONTACT ME</Link>
                 </div>

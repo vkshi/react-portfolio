@@ -1,20 +1,13 @@
 import React from 'react';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import './index.scss';
 import Loader from 'react-loaders';
-import AnimatedLetters from '../AnimatedLetters';
 import uPennData from '../../data/uPennData.json';
+import Popup from '../Popup';
+
 
 const UPenn = () => {
-    const [letterClass, setLetterClass] = useState("text-animate"); 
-
-    useEffect(() => {
-        setTimeout(() => {
-          setLetterClass("text-animate-hover");
-        }, 3000);
-      }, []);
-
-    
+    const [currentPopup, setCurrentPopup] = useState(false);
     const renderPortfolio = (uPennPortfolio) => {
         return (
             <div className='images-container'>
@@ -29,9 +22,18 @@ const UPenn = () => {
                                     <p className='title'>{folder.title}</p>
                                     <h4 className='description'>{folder.description}</h4>
                                     <button
+                                    onClick={() => setCurrentPopup(index)}
                                     className='btn'
-                                    onClick={() => window.open(folder.url)}
                                     >VIEW</button>
+                                    <Popup
+                                    key={index}
+                                    className='view-popup'
+                                    isOpen={currentPopup === index}
+                                    onClose={() => setCurrentPopup(null)} >
+                                        <p className='title'>{folder.title}</p>
+                                        <h4 className='description'>{folder.description}</h4>
+                                        <p>{folder.url}</p>
+                                    </Popup>
                                 </div>
                             </div>
                         )
@@ -44,15 +46,7 @@ const UPenn = () => {
 
     return (
         <>
-        <div className='container upenn-page'>
-            <h1 className='page-title'>
-                <AnimatedLetters 
-                letterClass={letterClass}
-                    index={15}
-                    strArray={"COURSEWORK".split("")}
-                
-                />
-            </h1>
+        <div className='upenn-container upenn-page'>
             <div>{renderPortfolio(uPennData.portfolio)}</div>
         </div>
         <Loader type='ball-scale-multiple' />

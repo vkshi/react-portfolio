@@ -49,12 +49,6 @@ $primary-color: #FFB580;
 }
 
 @font-face {
-  font-family: 'La Belle Aurore';
-  src: url('./assets/fonts/LaBelleAurore.woff2') format('woff2');
-  
-}
-
-@font-face {
   font-family: 'Coolvetica';
   src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2');
 }
@@ -78,4 +72,20 @@ textarea {
   height: 50px;
   animation: fadeOut 1s 1s;
   animation-fill-mode: forwards;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #181818;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #4d4d4e;
+
+  &:hover {
+    background-color: #FFB580;
+  }
 }

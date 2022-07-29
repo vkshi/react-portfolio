@@ -7,10 +7,7 @@ const Layout = () => {
     <div className="App">
       <Sidebar />
       <div className="page">
-        <div className='stars'></div>
-        <div className='stars2'></div>
-        <div className='stars3'></div>
-      <div className="tab"></div>
+       
         <Outlet />
       </div>
     </div>
