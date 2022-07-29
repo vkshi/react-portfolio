@@ -11,15 +11,19 @@
 }
 
 .popup-inner {
-  padding: 32px;
-  width: 100%;
-  max-width: 640px;
+  padding: 15px 0;
+  height: 50vh;
+  width: 50vw;
+  min-width: 640px;
   background-color: #ffffff;
   z-index: 999;
+
+  .close-btn {
+    position: absolute;
+    float: right;
+    margin-right: 16px;
+    z-index: 999;
+  }
+  
 }
 
-.close-btn {
-  top: 16px;
-  right: 16px;
-  z-index: 999;
-}
