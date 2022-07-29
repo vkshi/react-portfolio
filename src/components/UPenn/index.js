@@ -6,7 +6,7 @@ import uPennData from '../../data/uPennData.json';
 import Popup from '../Popup';
 
 const UPenn = () => {
-  const [currentPopup, setCurrentPopup] = useState(false);
+  const [currentPopup, setCurrentPopup] = useState(null);
   const renderPortfolio = (uPennPortfolio) => {
     return (
       <div className="images-container">
@@ -24,16 +24,6 @@ const UPenn = () => {
                 <button onClick={() => setCurrentPopup(index)} className="btn">
                   VIEW
                 </button>
-                <Popup
-                  key={index}
-                  className="view-popup"
-                  isOpen={currentPopup === index}
-                  onClose={() => setCurrentPopup(null)}
-                >
-                  <p className="title">{folder.title}</p>
-                  <h4 className="description">{folder.description}</h4>
-                  <p>{folder.url}</p>
-                </Popup>
               </div>
             </div>
           );
@@ -47,6 +37,18 @@ const UPenn = () => {
       <div className="upenn-container upenn-page">
         <div>{renderPortfolio(uPennData.portfolio)}</div>
       </div>
+      <Popup
+        isOpen={currentPopup !== null}
+        onClose={() => setCurrentPopup(null)}
+      >
+        <p className="popup-title">
+          {uPennData.portfolio[currentPopup]?.title}
+        </p>
+        <h4 className="popup-description">
+          {uPennData.portfolio[currentPopup]?.description}
+        </h4>
+        <p className="popup-url">{uPennData.portfolio[currentPopup]?.url}</p>
+      </Popup>
       <Loader type="ball-scale-multiple" />
     </>
   );

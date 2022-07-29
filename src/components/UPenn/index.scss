@@ -1,9 +1,16 @@
 .upenn-page {
   overflow-y: auto;
 
+  .popup-title,
+  .popup-description,
+  .popup-url {
+    color: black;
+  }
+
   .images-container {
     display: flex;
     flex-wrap: wrap;
+    flex-grow: 1;
   }
 
   .frame {
@@ -13,6 +20,7 @@
     overflow: hidden;
     background-color: #ffffff;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    box-sizing: border-box;
 
     .cover-image {
       position: relative;
@@ -124,8 +132,4 @@
   transform-style: preserve-3d;
   animation: fadeIn 1s forwards;
   animation-delay: 1s;
-}
-
-.view-popup {
-  z-index: -99;
 }

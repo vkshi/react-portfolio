@@ -5,7 +5,7 @@ import './index.scss';
 
 function Popup(props) {
   return props.isOpen ? (
-    <div className="popup">
+    <div className="popup-background">
       <div className="popup-inner">
         <button className="close-btn" onClick={props.onClose}>
           <FontAwesomeIcon icon={faXmark} color="4d4d4e" />
