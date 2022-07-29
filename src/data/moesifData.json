@@ -1,10 +1,10 @@
 {
-    "portfolio": [
-        {
-            "cover": "/",
-            "title": "",
-            "description":"",
-            "url":""
-        }
-        ]
+  "portfolio": [
+    {
+      "cover": "/",
+      "title": "",
+      "description": "",
+      "url": ""
+    }
+  ]
 }

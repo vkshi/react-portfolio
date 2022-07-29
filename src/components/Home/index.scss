@@ -1,7 +1,7 @@
 .home-page {
   .tab {
     width: 70px;
-}
+  }
   .text-zone {
     position: absolute;
     left: calc(10% + 60px);
@@ -15,19 +15,19 @@
     color: #fff;
     font-size: 53px;
     margin: 0;
-    font-family: "Coolvetica";
+    font-family: 'Coolvetica';
     font-weight: 400;
 
-   .first-name {
-    font-family: 'Paytone One', sans-serif;
-    font-size: 64px;
-    font-weight: 400;
-    padding: 0 8px;
-   }
+    .first-name {
+      font-family: 'Paytone One', sans-serif;
+      font-size: 64px;
+      font-weight: 400;
+      padding: 0 8px;
+    }
   }
 
   h2 {
-    color: #FFB580;
+    color: #ffb580;
     margin-top: 20px;
     font-weight: 400;
     font-family: sans-serif;
@@ -42,26 +42,26 @@
     display: flex;
     justify-content: space-evenly;
 
-  .flat-button {
-    color: #FFF;
-    font-size: 13px;
-    font-weight: 400;
-    letter-spacing: 4px;
-    font-family: sans-serif;
-    text-decoration: none;
-    padding: 15px 20px;
-    border: 1px solid #FFF;
-    animation: fadeIn 1s 1.8s backwards;
-    white-space: nowrap;
+    .flat-button {
+      color: #fff;
+      font-size: 13px;
+      font-weight: 400;
+      letter-spacing: 4px;
+      font-family: sans-serif;
+      text-decoration: none;
+      padding: 15px 20px;
+      border: 1px solid #fff;
+      animation: fadeIn 1s 1.8s backwards;
+      white-space: nowrap;
 
-    &:hover {
-      background: #FFB580;
-      border: 1px solid #FFB580;
-      color: #333366;
-      font-weight: 600;
+      &:hover {
+        background: #ffb580;
+        border: 1px solid #ffb580;
+        color: #333366;
+        font-weight: 600;
+      }
     }
   }
-}
 }
 
 .ki-logo-outline {
@@ -80,33 +80,33 @@
 
 @keyframes colorRotate {
   from {
-    stroke: #FF8080;
+    stroke: #ff8080;
   }
   12.5% {
-    stroke: #FFB580;
+    stroke: #ffb580;
   }
   25% {
-    stroke: #FFEA80;
+    stroke: #ffea80;
   }
   37.5% {
-    stroke: #8AFF80;
+    stroke: #8aff80;
   }
   50% {
-    color: #80FFDF;
+    color: #80ffdf;
   }
   62.5% {
-    stroke: #80B5FF;
+    stroke: #80b5ff;
   }
   75% {
-    stroke: #8A80FF;
+    stroke: #8a80ff;
   }
   87.5% {
-    stroke: #D580FF;
+    stroke: #d580ff;
   }
   100% {
-    stroke: #FF80CA;
+    stroke: #ff80ca;
   }
   0% {
-    color: #FF80CA;
+    color: #ff80ca;
   }
 }

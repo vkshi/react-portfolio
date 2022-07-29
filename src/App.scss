@@ -40,12 +40,11 @@
   }
 }
 
-$primary-color: #FFB580;
+$primary-color: #ffb580;
 
 @font-face {
   font-family: 'Helvetica';
   src: url('./assets/fonts/helvetica-neu.ttf') format('ttf');
-
 }
 
 @font-face {
@@ -55,9 +54,9 @@ $primary-color: #FFB580;
 
 @import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
 
-input, 
+input,
 textarea {
-  font-family: "Helvetica";
+  font-family: 'Helvetica';
 }
 
 .loader-active {
@@ -86,6 +85,6 @@ textarea {
   background-color: #4d4d4e;
 
   &:hover {
-    background-color: #FFB580;
+    background-color: #ffb580;
   }
 }

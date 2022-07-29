@@ -1,35 +1,35 @@
-import { useEffect, useState } from "react";
-import AnimatedLetters from "../AnimatedLetters";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useEffect, useState } from 'react';
+import AnimatedLetters from '../AnimatedLetters';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faFigma,
   faHtml5,
   faCss3Alt,
   faJs,
   faReact,
-} from "@fortawesome/free-brands-svg-icons";
-import { faImage } from "@fortawesome/free-solid-svg-icons";
-import Loader from "react-loaders";
-import "./index.scss";
+} from '@fortawesome/free-brands-svg-icons';
+import { faImage } from '@fortawesome/free-solid-svg-icons';
+import Loader from 'react-loaders';
+import './index.scss';
 
 const About = () => {
-  const [letterClass, setLetterClass] = useState("text-animate");
+  const [letterClass, setLetterClass] = useState('text-animate');
 
   useEffect(() => {
     setTimeout(() => {
-      setLetterClass("text-animate-hover");
+      setLetterClass('text-animate-hover');
     }, 3000);
   }, []);
 
   return (
     <>
       <div className="container about-page">
-      <div className="container tab"></div>
+        <div className="container tab"></div>
         <div className="text-zone">
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={"ABOUT ME".split("")}
+              strArray={'ABOUT ME'.split('')}
               index={15}
             />
           </h1>
@@ -39,9 +39,9 @@ const About = () => {
         </div>
 
         <div className="stage-cube-cont">
-          <div className='stars'></div>
-          <div className='stars2'></div>
-          <div className='stars3'></div>
+          <div className="stars"></div>
+          <div className="stars2"></div>
+          <div className="stars3"></div>
           <div className="cubespinner">
             <div className="face1">
               <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
