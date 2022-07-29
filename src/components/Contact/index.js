@@ -1,17 +1,17 @@
-import { useState, useEffect, useRef } from "react";
-import AnimatedLetters from "../AnimatedLetters";
-import Loader from "react-loaders";
-import emailjs from "@emailjs/browser";
-import "./index.scss";
-import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import { useState, useEffect, useRef } from 'react';
+import AnimatedLetters from '../AnimatedLetters';
+import Loader from 'react-loaders';
+import emailjs from '@emailjs/browser';
+import './index.scss';
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 
 const Contact = () => {
-  const [letterClass, setLetterClass] = useState("text-animate");
+  const [letterClass, setLetterClass] = useState('text-animate');
   const refForm = useRef();
 
   useEffect(() => {
     setTimeout(() => {
-      setLetterClass("text-animate-hover");
+      setLetterClass('text-animate-hover');
     }, 3000);
   }, []);
 
@@ -20,18 +20,18 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_zfbgryp",
-        "template_2fjsudi",
+        'service_zfbgryp',
+        'template_2fjsudi',
         refForm.current,
-        "Rl7abfxEeAARshJ74"
+        'Rl7abfxEeAARshJ74'
       )
       .then(
         () => {
-          alert("Message sent!");
+          alert('Message sent!');
           window.location.reload(false);
         },
         () => {
-          alert("Failed to send message, please try again!");
+          alert('Failed to send message, please try again!');
         }
       );
   };
@@ -39,12 +39,12 @@ const Contact = () => {
   return (
     <>
       <div className="container contact-page">
-      <div className="container tab"></div>
+        <div className="container tab"></div>
         <div className="text-zone">
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={"CONTACT ME".split("")}
+              strArray={'CONTACT ME'.split('')}
               index={15}
             />
           </h1>
@@ -83,25 +83,27 @@ const Contact = () => {
           </form>
         </div>
         <div className="map-wrap">
-        <div className="info-map">
+          <div className="info-map">
             Ki Shi, <br />
             San Franscico, CA <br />
-            <a href = "mailto: vkshi.vs@gmail.com" >Email</a> | <a href = "https://www.linkedin.com/in/vicky-shi-31483b117/" >LinkedIn</a> 
-            <br /><br />
+            <a href="mailto: vkshi.vs@gmail.com">Email</a> |{' '}
+            <a href="https://www.linkedin.com/in/vicky-shi-31483b117/">
+              LinkedIn
+            </a>
+            <br />
+            <br />
             Open to remote work!
           </div>
-          <MapContainer
-          center={[37.7749, -122.4194]}
-          zoom={13}>
+          <MapContainer center={[37.7749, -122.4194]} zoom={13}>
             <TileLayer
-            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
-            url='https://{s}.basemaps.cartocdn.com/rastertiles/voyager_labels_under/{z}/{x}/{y}{r}.png'/>
+              attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+              url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager_labels_under/{z}/{x}/{y}{r}.png"
+            />
             <Marker position={[37.773972, -122.431297]}>
-                <Popup>Hi, send me an email! &#128522;</Popup>
+              <Popup>Hi, send me an email! &#128522;</Popup>
             </Marker>
           </MapContainer>
-
-          </div>
+        </div>
       </div>
       <Loader className="ball-scale-multiple" />
     </>
