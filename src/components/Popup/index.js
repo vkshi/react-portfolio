@@ -8,7 +8,7 @@ function Popup(props) {
     <div className="popup-background">
       <div className="popup-inner">
         <button className="close-btn" onClick={props.onClose}>
-          <FontAwesomeIcon icon={faXmark} color="4d4d4e" />
+          <FontAwesomeIcon icon={faXmark} color="4d4d4e" width="25px" />
         </button>
         {props.children}
       </div>
