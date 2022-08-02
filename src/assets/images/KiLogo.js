@@ -5,7 +5,7 @@ const KiLogo = (props) => (
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 348 370"
     style={{
-      enableBackground: "new 0 0 348 370",
+      enableBackground: 'new 0 0 348 370',
     }}
     xmlSpace="preserve"
     width="1em"
