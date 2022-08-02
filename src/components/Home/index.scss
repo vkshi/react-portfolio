@@ -69,12 +69,12 @@
   width: 50%;
   height: 100%;
   position: absolute;
-  top: 15%;
+  top: 5%;
   bottom: 0;
   right: 0;
   left: auto;
   margin: auto;
-  transform: rotateZ(30deg) !important;
+  //transform: rotateZ(30deg) !important;
   animation: colorRotate 10s linear infinite;
 }
 
