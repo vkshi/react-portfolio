@@ -7,6 +7,12 @@
   position: absolute;
   right: 0;
   overflow: hidden;
+
+  @media only screen and (max-width: 960px) {
+    position: relative;
+    width: 100%;
+    height: 445px;
+  }
 }
 
 .cubespinner {

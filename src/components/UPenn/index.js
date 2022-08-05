@@ -41,22 +41,24 @@ const UPenn = () => {
         isOpen={currentPopup !== null}
         onClose={() => setCurrentPopup(null)}
       >
-        <img
-          src={uPennData.portfolio[currentPopup]?.display}
-          className="popup-image"
-          alt="portfolio images"
-        />
-        <div className="text-zone">
-          <h1>{uPennData.portfolio[currentPopup]?.title}</h1>
-          <p>{uPennData.portfolio[currentPopup]?.description}</p>
-          <a
-            className="flat-button"
-            target="_blank"
-            rel="noreferrer"
-            href={uPennData.portfolio[currentPopup]?.url}
-          >
-            More
-          </a>
+        <div className="contain-popup">
+          <img
+            src={uPennData.portfolio[currentPopup]?.display}
+            className="popup-image"
+            alt="portfolio images"
+          />
+          <div className="text-zone">
+            <h1>{uPennData.portfolio[currentPopup]?.title}</h1>
+            <p>{uPennData.portfolio[currentPopup]?.description}</p>
+            <a
+              className="flat-button"
+              target="_blank"
+              rel="noreferrer"
+              href={uPennData.portfolio[currentPopup]?.url}
+            >
+              More
+            </a>
+          </div>
         </div>
       </Popup>
       <Loader type="ball-scale-multiple" />
