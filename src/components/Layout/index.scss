@@ -4,6 +4,13 @@
   position: absolute;
   margin-left: 70px;
   overflow: hidden;
+
+  @media only screen and (max-width: 960px) {
+    margin-left: 0;
+    width: 100%;
+    height: calc(100% - 70px);
+    margin-top: 70px;
+  }
 }
 
 .container {
@@ -19,6 +26,15 @@
   transform-style: preserve-3d;
   animation: fadeIn 1s forwards;
   animation-delay: 1s;
+
+  @media only screen and (max-width: 960px) {
+    width: 100%;
+    height: auto;
+    padding-bottom: 58px;
+    box-sizing: border-box;
+    position: relative;
+    top: 0;
+  }
 }
 
 .about-page,
@@ -36,7 +52,7 @@
 
   .text-zone {
     position: absolute;
-    left: 10%;
+    left: 5%;
     top: 50%;
     transform: translateY(-50%);
     width: 35%;
@@ -45,6 +61,13 @@
     float: left;
     max-height: 90%;
     text-align: left;
+
+    @media only screen and (max-width: 960px) {
+      width: 80%;
+      min-height: 0;
+      top: 20%;
+      transform: translateY(-20%);
+    }
   }
 
   p {

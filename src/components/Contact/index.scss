@@ -47,12 +47,11 @@
     width: 100%;
     border: 0;
     background: #b0b0e5;
-    height: 50px;
     font-size: 16px;
     color: #181818;
     padding: 20px;
     box-sizing: border-box;
-    min-height: 150px;
+    min-height: 200px;
 
     &::placeholder {
       color: #333366;
@@ -61,10 +60,10 @@
 
   .flat-button {
     color: #ffb580;
-    font-size: 11px;
+    font-size: 15px;
     letter-spacing: 3px;
     text-decoration: none;
-    padding: 8px 10px;
+    padding: 18px 25px;
     border: 1px solid #ffb580;
     float: left;
     background: 0 0;
@@ -88,6 +87,15 @@
   margin-right: 1%;
   float: right;
 
+  @media only screen and (max-width: 960px) {
+    float: none;
+    width: 80%;
+    display: block;
+    margin: 125px auto 0 auto;
+    height: 320px;
+    clear: both;
+  }
+
   .info-map {
     position: absolute;
     background-color: #181818;
@@ -103,6 +111,12 @@
     opacity: 0;
     animation: fadeIn 1s 1.5s;
     animation-fill-mode: forwards;
+
+    @media only screen and (max-width: 960px) {
+      top: auto;
+      bottom: 0;
+      right: 5%;
+    }
 
     a {
       display: inline-block;

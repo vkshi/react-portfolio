@@ -16,6 +16,22 @@
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     box-sizing: border-box;
 
+    @media only screen and (max-width: 960px) {
+      width: calc(100% / 4);
+
+      &:last-child {
+        display: none;
+      }
+    }
+
+    @media only screen and (max-width: 530px) {
+      width: calc(100% / 3);
+
+      &:last-child {
+        display: none;
+      }
+    }
+
     .cover-image {
       position: relative;
       z-index: 2;

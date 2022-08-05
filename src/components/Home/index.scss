@@ -1,6 +1,10 @@
 .home-page {
   .tab {
     width: 70px;
+
+    @media only screen and (max-width: 960px) {
+      display: none;
+    }
   }
   .text-zone {
     position: absolute;
@@ -9,6 +13,10 @@
     transform: translateY(-50%);
     width: 40%;
     max-height: 90%;
+
+    @media only screen and (max-width: 960px) {
+      width: 50%;
+    }
   }
 
   h1 {
@@ -40,7 +48,7 @@
     right: 15%;
     margin-top: 35px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 
     .flat-button {
       color: #fff;
@@ -49,7 +57,8 @@
       letter-spacing: 4px;
       font-family: sans-serif;
       text-decoration: none;
-      padding: 15px 20px;
+      padding: 15px;
+      margin: 0 2%;
       border: 1px solid #fff;
       animation: fadeIn 1s 1.8s backwards;
       white-space: nowrap;
@@ -65,16 +74,20 @@
 }
 
 .ki-logo-outline {
+  @media only screen and (max-width: 960px) {
+    position: relative;
+    top: 55vh;
+    left: -5%;
+  }
+
   z-index: -2;
-  width: 50%;
+  width: 45%;
   height: 100%;
   position: absolute;
-  top: 5%;
   bottom: 0;
-  right: 0;
+  right: 1%;
   left: auto;
   margin: auto;
-  //transform: rotateZ(30deg) !important;
   animation: colorRotate 10s linear infinite;
 }
 

@@ -7,6 +7,16 @@
   z-index: 3;
   min-height: 500px;
 
+  @media only screen and (max-width: 960px) {
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    min-height: 0;
+  }
+
   .ki-logo {
     display: block;
     padding: 8px 0;
@@ -18,6 +28,18 @@
 
     &:hover {
       fill: #ffb580;
+    }
+
+    @media only screen and (max-width: 960px) {
+      display: block;
+      margin: 0 15px;
+      width: 6%;
+    }
+
+    @media only screen and (max-width: 530px) {
+      display: none;
+      margin: 0;
+      padding: 0;
     }
   }
 
@@ -34,6 +56,25 @@
     top: 50%;
     margin-top: -120px;
     width: 100%;
+    z-index: 99;
+
+    @media only screen and (max-width: 960px) {
+      width: 42%;
+      position: absolute;
+      left: 50%;
+      margin-left: -20%;
+      float: left;
+      overflow: hidden;
+      text-align: center;
+      height: 70px;
+      top: 0;
+      margin-top: 0;
+    }
+
+    @media only screen and (max-width: 530px) {
+      width: 100%;
+      left: 28%;
+    }
 
     a {
       font-size: 22px;
@@ -42,6 +83,19 @@
       line-height: 51px;
       position: relative;
       text-decoration: none;
+      z-index: 9999;
+
+      @media only screen and (max-width: 960px) {
+        float: left;
+        margin: 12px 6%;
+        height: 55px;
+        font-size: 28px;
+      }
+
+      @media only screen and (max-width: 530px) {
+        margin: 10px 8%;
+        font-size: 24px;
+      }
 
       i {
         transition: all 0.3s ease-out;
@@ -70,9 +124,17 @@
         text-align: center;
         opacity: 0;
         transition: all 0.3s ease-out;
+
+        @media only screen and (max-width: 960px) {
+          letter-spacing: 1px;
       }
+    }
 
       &:first-child {
+        @media only screen and (max-height: 960px) {
+          margin-left: 0;
+        }
+
         &::after {
           content: 'HOME';
         }
@@ -113,6 +175,22 @@ ul {
   list-style: none;
   text-align: center;
 
+
+  @media only screen and (max-width: 960px) {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    width: auto;
+    height: 70px;
+    line-height: 70px;
+    display: block;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    float: right;
+  }
+
   li {
     a {
       padding: 7px 0;
@@ -123,6 +201,23 @@ ul {
       &:hover svg {
         color: #ffb580;
       }
+
+      @media only screen and (max-width: 960px) {
+        line-height: 60px;
+        padding: 0;
+      }
+    }
+
+    @media only screen and (max-width: 960px) {
+      float: right;
+      height: 40px;
+      line-height: 60px;
+      margin: 10px;
+    }
+
+    @media only screen and (max-width: 530px) {
+      display: none;
+
     }
   }
 }
