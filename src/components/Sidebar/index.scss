@@ -73,7 +73,7 @@
 
     @media only screen and (max-width: 530px) {
       width: 100%;
-      left: 28%;
+      left: 35%;
     }
 
     a {
@@ -127,8 +127,8 @@
 
         @media only screen and (max-width: 960px) {
           letter-spacing: 1px;
+        }
       }
-    }
 
       &:first-child {
         @media only screen and (max-height: 960px) {
@@ -175,7 +175,6 @@ ul {
   list-style: none;
   text-align: center;
 
-
   @media only screen and (max-width: 960px) {
     position: absolute;
     top: 0;
@@ -217,7 +216,6 @@ ul {
 
     @media only screen and (max-width: 530px) {
       display: none;
-
     }
   }
 }
