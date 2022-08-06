@@ -31,6 +31,79 @@
     margin-top: 70px;
   }
 
+  @media only screen and (min-width: 961px) {
+    width: 85vw;
+    margin-left: -70px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+
+  .text-zone {
+    width: 35%;
+    text-align: left;
+    z-index: 90;
+
+    h1 {
+      font-size: 53px;
+      font-family: 'Coolvetica';
+      color: #ffb580;
+      font-weight: 400;
+      margin: 0;
+      line-height: 1.2;
+      min-width: fit-content;
+
+      @media only screen and (max-width: 960px) {
+        font-size: 48px;
+        line-height: 1;
+      }
+
+      @media only screen and (max-width: 530px) {
+        font-size: 36px;
+        line-height: 1;
+      }
+
+      @media only screen and (min-width: 1600px) {
+        font-size: 72px;
+      }
+    }
+
+    p {
+      color: #fff;
+      font-family: sans-serif;
+      font-size: 20px;
+      font-weight: 300;
+      min-width: fit-content;
+
+      @media only screen and (max-width: 960px) {
+        font-size: 16px;
+        padding-bottom: 10px;
+      }
+
+      @media only screen and (min-width: 1600px) {
+        font-size: 24px;
+        padding-bottom: 20px;
+      }
+    }
+
+    @media only screen and (max-width: 960px) {
+      width: 70%;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    @media only screen and (min-width: 961px) {
+      max-height: 85%;
+      overflow-y: scroll;
+      padding: 10px 15px;
+    }
+  }
+
   .close-btn {
     color: #4d4d4e;
     position: fixed;
@@ -54,93 +127,44 @@
   }
 }
 
-.contain-popup {
-  box-sizing: border-box;
-  position: relative;
-  display: grid;
-  grid-template-areas: 'img';
-  grid-template-rows: 1fr;
-  grid-template-columns: 95%;
-  justify-items: center;
-  align-items: center;
+.popup-image {
+  max-width: 800px;
+  max-height: 800px;
+  background: #4d4d4e;
+  border: solid 7px #4d4d4e;
 
-  .popup-image {
-    max-width: 800px;
-    max-height: 800px;
-    background: #4d4d4e;
-    border: solid 7px #4d4d4e;
-
-    &:hover {
-      background: #ffb580;
-      border: solid 7px #ffb580;
-    }
-
-    @media only screen and (max-width: 960px) {
-      min-height: 20%;
-      max-height: fit-content;
-      max-width: 70%;
-      margin: 25px 0 25px 32px;
-    }
+  &:hover {
+    background: #ffb580;
+    border: solid 7px #ffb580;
   }
 
-  .text-zone {
-    width: 35%;
-    text-align: left;
-    z-index: 90;
-
-    h1 {
-      font-size: 53px;
-      font-family: 'Coolvetica';
-      color: #ffb580;
-      font-weight: 400;
-      margin: 0;
-      line-height: 1.2;
-      min-width: fit-content;
-
-      @media only screen and (max-width: 960px) {
-        font-size: 48px;
-        line-height: 1;
-      }
-    }
-
-    p {
-      font-size: 13px;
-      color: #fff;
-      font-family: sans-serif;
-      font-size: 24px;
-      font-weight: 300;
-      min-width: fit-content;
-
-      @media only screen and (max-width: 960px) {
-        font-size: 18px;
-        padding-bottom: 10px;
-      }
-    }
-
-    @media only screen and (max-width: 960px) {
-      width: 70%;
-      margin-left: 32px;
-      overflow-y: scroll;
-      overflow-x: hidden;
-    }
+  @media only screen and (max-width: 960px) {
+    min-height: 20%;
+    max-height: fit-content;
+    max-width: 70%;
+    margin: 25px 0;
   }
 
-  .flat-button {
-    color: #ffb580;
-    font-size: 11px;
-    letter-spacing: 3px;
-    text-decoration: none;
-    padding: 8px 10px;
-    border: 1px solid #ffb580;
-    text-transform: uppercase;
-    float: right;
-    text-align: center;
-    margin-right: 10px;
+  @media only screen and (min-width: 961px) {
+    max-width: 50%;
+  }
+}
 
-    &:hover {
-      background-color: #ffb580;
-      color: #181818;
-      border: 1px solid #181818;
-    }
+.flat-button {
+  color: #ffb580;
+  font-size: 11px;
+  letter-spacing: 3px;
+  text-decoration: none;
+  padding: 8px 10px;
+  border: 1px solid #ffb580;
+  text-transform: uppercase;
+  float: right;
+  text-align: center;
+  margin-right: 10px;
+
+  &:hover {
+    background-color: #ffb580;
+    color: #181818;
+    border: 1px solid #181818;
   }
 }
