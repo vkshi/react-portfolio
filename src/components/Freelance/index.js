@@ -1,7 +1,67 @@
 import React from 'react';
+import { useState } from 'react';
+import './index.scss';
+import Loader from 'react-loaders';
+import freelanceData from '../../data/freelanceData.json';
+import Popup from '../Popup';
 
 const Freelance = () => {
-  return <div>Hello</div>;
+  const [currentPopup, setCurrentPopup] = useState(null);
+  const renderPortfolio = (freelancePortfolio) => {
+    return (
+      <div className="images-container">
+        {freelancePortfolio.map((folder, index) => {
+          return (
+            <div className="frame" key={index}>
+              <img
+                src={folder.cover}
+                className="cover-image"
+                alt="portfolio images"
+              />
+              <div className="content">
+                <p className="title">{folder.title}</p>
+                <h4 className="description">{folder.skills}</h4>
+                <button onClick={() => setCurrentPopup(index)} className="btn">
+                  VIEW
+                </button>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    );
+  };
+
+  return (
+    <>
+      <div className="freelance-container freelance-page">
+        <div>{renderPortfolio(freelanceData.portfolio)}</div>
+      </div>
+      <Popup
+        isOpen={currentPopup !== null}
+        onClose={() => setCurrentPopup(null)}
+      >
+        <img
+          src={freelanceData.portfolio[currentPopup]?.display}
+          className="popup-image"
+          alt="portfolio images"
+        />
+        <div className="text-zone">
+          <h1>{freelanceData.portfolio[currentPopup]?.title}</h1>
+          <p>{freelanceData.portfolio[currentPopup]?.description}</p>
+          <a
+            className="flat-button"
+            target="_blank"
+            rel="noreferrer"
+            href={freelanceData.portfolio[currentPopup]?.url}
+          >
+            More
+          </a>
+        </div>
+      </Popup>
+      <Loader type="ball-scale-multiple" />
+    </>
+  );
 };
 
 export default Freelance;

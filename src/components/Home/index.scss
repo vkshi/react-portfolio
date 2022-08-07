@@ -50,6 +50,10 @@
     display: flex;
     justify-content: center;
 
+    @media only screen and (max-width: 960px) {
+      margin-left: 15px;
+    }
+
     .flat-button {
       color: #fff;
       font-size: 13px;
@@ -76,8 +80,12 @@
 .ki-logo-outline {
   @media only screen and (max-width: 960px) {
     position: relative;
-    top: 55vh;
-    left: -5%;
+    top: 50vh;
+    width: 80%;
+  }
+
+  @media only screen and (max-width: 530px) {
+    display: none;
   }
 
   z-index: -2;

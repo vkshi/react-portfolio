@@ -128,8 +128,6 @@
 }
 
 .popup-image {
-  max-width: 800px;
-  max-height: 800px;
   background: #4d4d4e;
   border: solid 7px #4d4d4e;
 
@@ -140,13 +138,14 @@
 
   @media only screen and (max-width: 960px) {
     min-height: 20%;
-    max-height: fit-content;
-    max-width: 70%;
+    max-height: auto;
+    max-width: 60%;
     margin: 25px 0;
   }
 
   @media only screen and (min-width: 961px) {
     max-width: 50%;
+    max-height: 90%;
   }
 }
 
