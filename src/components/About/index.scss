@@ -9,9 +9,8 @@
   overflow: hidden;
 
   @media only screen and (max-width: 960px) {
-    position: relative;
     width: 100%;
-    height: 445px;
+    transform: translateY(75%);
   }
 }
 
@@ -60,6 +59,26 @@
   .face6 {
     transform: rotateX(-90deg) translateZ(100px);
     color: #ffffff;
+  }
+}
+
+.about-page.container {
+  .flat-button {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    padding: 15px;
+    margin: 2% 0;
+    float: left;
+    border: 1px solid #fff;
+
+    &:hover {
+      background: #ffb580;
+      border: 1px solid #ffb580;
+      color: #333366;
+      font-weight: 600;
+    }
   }
 }
 

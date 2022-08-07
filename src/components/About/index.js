@@ -9,6 +9,7 @@ import {
   faReact,
 } from '@fortawesome/free-brands-svg-icons';
 import { faImage } from '@fortawesome/free-solid-svg-icons';
+import Resume from '../../assets/resume/SHI_VICKY_RESUME.pdf';
 import Loader from 'react-loaders';
 import './index.scss';
 
@@ -24,7 +25,7 @@ const About = () => {
   return (
     <>
       <div className="container about-page">
-        <div className="container tab"></div>
+        <div className="tab"></div>
         <div className="text-zone">
           <h1>
             <AnimatedLetters
@@ -33,9 +34,36 @@ const About = () => {
               index={15}
             />
           </h1>
-          <p>Hi, my name is Ki.</p>
-          <p align="LEFT">I'm working on my portfolio.</p>
-          <p>It's coded in React.js!</p>
+          <p>
+            Hi! My name is Ki and I am a frontend developer and a designer. I
+            graduated in May 2021 and have a Bachelor of Arts in Visual Studies
+            from the University of Pennsylvania! Welcome to my portfolio! This
+            is coded with React.js and SCSS. It's currently populated with
+            coursework and projects from my first job.
+          </p>
+          <p>
+            I am trained in graphic design, branding, and web development via
+            the Adobe Suite, HTML, CSS/SCSS, Javascript, and React.js. My
+            back-end skills are more limited, but I can do some object-oriented
+            programming with Java and data analysis with Python/Panda. I am an
+            eager student and will happily engage with other coding languages if
+            given a chance to learn them.
+          </p>
+
+          <p>
+            I want to grow both as a designer and a developer. Although I am
+            very independent, I have yet had the chance to work as a team member
+            alongside other designers and developers. I am currently seeking
+            collaborative opportunities!
+          </p>
+          <a
+            href={Resume}
+            className="flat-button"
+            target="_blank"
+            rel="noreferrer"
+          >
+            RESUME
+          </a>
         </div>
 
         <div className="stage-cube-cont">

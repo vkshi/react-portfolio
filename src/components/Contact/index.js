@@ -39,7 +39,7 @@ const Contact = () => {
   return (
     <>
       <div className="container contact-page">
-        <div className="container tab"></div>
+        <div className="tab"></div>
         <div className="text-zone">
           <h1>
             <AnimatedLetters
@@ -48,7 +48,11 @@ const Contact = () => {
               index={15}
             />
           </h1>
-          <p>I am interested in full-time and freelance opportunities!</p>
+          <p>
+            This form is made with EmailJS. I was so excited when I got it
+            working! Try it out and send me an email. I am interested in both
+            full-time and freelance opportunities. Hope to hear from you soon!
+          </p>
           <form ref={refForm} onSubmit={sendEmail} className="contact-form">
             <label className="half">
               <input
