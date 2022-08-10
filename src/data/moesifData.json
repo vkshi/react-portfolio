@@ -1,55 +1,55 @@
 {
   "portfolio": [
     {
-      "cover": "",
-      "display": "",
+      "cover": "../../../assets/sidebar-wide1.png",
+      "display": "../../../assets/sidebar-wide1.png",
       "title": "App Sidebar Full",
       "skills": "React.js, CSS",
       "description": "",
-      "url": ""
+      "url": "../../../assets/sidebar-wide.png"
     },
     {
-      "cover": "",
-      "display": "",
+      "cover": "../../../assets/sidebar-narrow1.png",
+      "display": "../../../assets/sidebar-narrow1.png",
       "title": "App Sidebar Narrow",
       "skills": "React.js, CSS",
       "description": "",
-      "url": ""
+      "url": "../../../assets/sidebar-narrow.png"
     },
     {
-      "cover": "",
-      "display": "",
+      "cover": "../../../assets/modal1.png",
+      "display": "../../../assets/modal1.png",
       "title": "App Popup Modal",
       "skills": "React.js, CSS",
       "description": "",
-      "url": ""
+      "url": "../../../assets/modal.png"
     },
     {
-      "cover": "",
-      "display": "",
+      "cover": "../../../assets/onboarding-sidebar1.png",
+      "display": "../../../assets/onboarding-sidebar1.png",
       "title": "Onboarding Sidebar",
       "skills": "React.js, CSS",
       "description": "",
-      "url": ""
+      "url": "../../../assets/onboarding-sidebar.png"
     },
     {
-      "cover": "",
-      "display": "",
+      "cover": "../../../assets/sprites-and-badges.png",
+      "display": "../../../assets/sprites-and-badges.png",
       "title": "Main Website Sprites and Badges",
       "skills": "React.js, CSS",
       "description": "",
       "url": "https://www.moesif.com/"
     },
     {
-      "cover": "",
-      "display": "",
+      "cover": "../../../assets/guides-landing-page.png",
+      "display": "../../../assets/guides-landing-page.png",
       "title": "Guides Landing Page",
       "skills": "HTML, CSS, Liquid",
       "description": "",
       "url": "https://www.moesif.com/docs/guides/"
     },
     {
-      "cover": "",
+      "cover": "../../../assets/ebook-landing-page.png",
       "display": "",
       "title": "E-Book, Casestudy, and Infographic Landing Page",
       "skills": "HTML, CSS, Liquid",
@@ -57,148 +57,148 @@
       "url": "https://www.moesif.com/blog/ebooks/2x-faster-time-to-revenue/"
     },
     {
-      "cover": "",
-      "display": "",
+      "cover": "../../../assets/2x-faster-time-to-revenue-pdf.png",
+      "display": "../../../assets/2x-faster-time-to-revenue-pdf.png",
       "title": "2x Faster Time to Revenue (PDF)",
       "skills": "Illustrator, InDesign",
       "description": "",
-      "url": ""
+      "url": "../../../assets/2x-faster-time-to-revenue.pdf"
     },
     {
-      "cover": "",
-      "display": "",
+      "cover": "../../../assets/2x-faster-time-to-revenue-web.png",
+      "display": "../../../assets/2x-faster-time-to-revenue-web.png",
       "title": "2x Faster Time to Revenue (Website)",
       "skills": "React.js, Illustator",
       "description": "",
       "url": "https://www.moesif.com/casestudies/2x-faster-time-to-revenue"
     },
     {
-      "cover": "",
-      "display": "",
+      "cover": "../../../assets/infographic.png",
+      "display": "../../../assets/infographic.png",
       "title": "Best Practices For Monetizing Your APIs (Infographic)",
       "skills": "Illustrator, InDesign",
       "description": "",
-      "url": ""
+      "url": "../../../assets/Best-Practices-For-Monetizing-Your-APIs-compressed.pdf"
     },
     {
-      "cover": "",
-      "display": "",
+      "cover": "../../../assets/oreilly1.png",
+      "display": "../../../assets/oreilly.png",
       "title": "O'Reilly Book Ad Insert/Cover",
       "skills": "Illustrator",
       "description": "",
-      "url": ""
+      "url": "https://www.moesif.com/blog/ebooks/oreilly-api-strategy-for-decision-makers/"
     },
     {
-      "cover": "",
-      "display": "",
+      "cover": "../../../assets/moesif-banner14.png",
+      "display": "../../../assets/moesif-banner14.png",
       "title": "Reloadly Deploys Sophisticated API Analytics for Customer Success with Moesif (Video)",
       "skills": "After Effect, Premiere Pro, Photoshop",
       "description": "",
       "url": "https://www.youtube.com/watch?v=aN0X-s_ZLzA"
     },
     {
-      "cover": "",
-      "display": "",
+      "cover": "../../../assets/moesif-banner1.png",
+      "display": "../../../assets/moesif-banner1.png",
       "title": "Monitor API Issues Impacting Customers (Reddit Ad)",
       "skills": "Illustrator",
       "description": "",
-      "url": ""
+      "url": "../../../assets/moesif-banner1.png"
     },
     {
-      "cover": "",
-      "display": "",
-      "title": "Benefits of an API Program (Blog Header)",
-      "skills": "Illustator",
-      "description": "",
-      "url": "https://www.moesif.com/blog/developer-platforms/api-analytics/Benefits-of-an-API-Program/"
-    },
-    {
-      "cover": "",
-      "display": "",
+      "cover": "../../../assets/moesif-banner3.png",
+      "display": "../../../assets/moesif-banner3.png",
       "title": "The Developer-Led Landscape (YouTube Splash Screen)",
       "skills": "Illustrator",
       "description": "",
       "url": "https://www.youtube.com/watch?v=p6HkBgLisGA"
     },
     {
-      "cover": "",
-      "display": "",
+      "cover": "../../../assets/moesif-banner4.png",
+      "display": "../../../assets/moesif-banner4.png",
       "title": "GraphQL in Enterprise (Blog Header)",
       "skills": "Illustrator",
       "description": "",
       "url": "https://www.moesif.com/blog/technical/graphql/GraphQL-In-Enterprise-What-It-Takes-To-Build-Deploy-And-Monitor-A-New-Enterprise-GraphQL-Service/"
     },
     {
-      "cover": "",
-      "display": "",
+      "cover": "../../../assets/moesif-banner5.png",
+      "display": "../../../assets/moesif-banner5.png",
       "title": "How to Debug an Unresponsive Elasticsearch Cluster (Blog Header)",
       "skills": "Illustator",
       "description": "",
       "url": "https://www.moesif.com/blog/technical/elasticsearch/How-to-Debug-an-Unresponsive-Elasticsearch-Cluster/"
     },
     {
-      "cover": "",
-      "display": "",
+      "cover": "../../../assets/moesif-banner6.png",
+      "display": "../../../assets/moesif-banner6.png",
       "title": "Ready, Set, Product-Led Growth (Blog Header)",
       "skills": "Ilustrator",
       "description": "",
-      "url": ""
+      "url": "../../../assets/moesif-banner6.png"
     },
     {
-      "cover": "",
-      "display": "",
+      "cover": "../../../assets/moesif-banner7.png",
+      "display": "../../../assets/moesif-podcast.png",
       "title": "APIs for the Right Business Case (Podcast Splash Screen)",
       "skills": "Illustator",
       "description": "",
       "url": "https://www.moesif.com/blog/podcasts/developer-marketing/Podcast-APIs-for-the-Right-Business-Case/"
     },
     {
-      "cover": "",
-      "display": "",
-      "title": "API Proxy vs API Gateway (Blog Header)",
-      "skills": "Illustrator",
-      "description": "",
-      "url": "https://www.moesif.com/blog/technical/api-gateways/API-Proxy-Vs-API-Gateway-What-Are-The-Differences-And-Which-Should-You-Use/"
-    },
-    {
-      "cover": "",
-      "display": "",
+      "cover": "../../../assets/moesif-banner9.png",
+      "display": "../../../assets/moesif-banner9.png",
       "title": "Meeting Moesif (Blog Header)",
       "skills": "Illustrator",
       "description": "",
       "url": "https://www.moesif.com/blog/business/company/Meeting-Moesif-with-SEO-Manager-Savannah-Whitman/"
     },
     {
-      "cover": "",
-      "display": "",
+      "cover": "../../../assets/moesif-banner8.png",
+      "display": "../../../assets/moesif-banner8.png",
+      "title": "API Proxy vs API Gateway (Blog Header)",
+      "skills": "Illustrator",
+      "description": "",
+      "url": "https://www.moesif.com/blog/technical/api-gateways/API-Proxy-Vs-API-Gateway-What-Are-The-Differences-And-Which-Should-You-Use/"
+    },
+    {
+      "cover": "../../../assets/moesif-banner2.png",
+      "display": "../../../assets/moesif-banner2.png",
+      "title": "Benefits of an API Program (Blog Header)",
+      "skills": "Illustator",
+      "description": "",
+      "url": "https://www.moesif.com/blog/developer-platforms/api-analytics/Benefits-of-an-API-Program/"
+    },
+    {
+      "cover": "../../../assets/moesif-banner13.png",
+      "display": "../../../assets/moesif-banner13.png",
+      "title": "When Should you Consider Metered Billing? (Blog Header)",
+      "skills": "Illustrator",
+      "description": "",
+      "url": "https://www.moesif.com/blog/api-strategy/monetization/When-Should-you-Consider-Metered-Billing/"
+    },
+    {
+      "cover": "../../../assets/moesif-banner10.png",
+      "display": "../../../assets/moesif-banner10.png",
       "title": "How Stripe Created a Developer Paradise (Blog Header)",
       "skills": "Illustrator",
       "description": "",
-      "url": ""
+      "url": "../../../assets/moesif-banner10.png"
     },
     {
-      "cover": "",
-      "display": "",
-      "title": "End-to-End API Monetization with Kong, Stripe, and Moesif (Blog Header)",
-      "skills": "Illustator",
-      "description": "",
-      "url": "https://www.moesif.com/blog/technical/stripe/kong/End-To-End-API-Monetization-With-Kong-Stripe-And-Moesif/"
-    },
-    {
-      "cover": "",
-      "display": "",
+      "cover": "../../../assets/moesif-banner12.png",
+      "display": "../../../assets/moesif-banner12.png",
       "title": "How to Monitor Azure API Management Performance with the Moesif Plugin (Blog Header)",
       "skills": "Illustrator",
       "description": "",
       "url": "https://www.moesif.com/blog/technical/azure-api-management/How-to-Monitor-Azure-API-Management-Performance-with-the-Moesif-Plugin/"
     },
     {
-      "cover": "",
-      "display": "",
-      "title": "When Should you Consider Metered Billing? (Blog Header)",
-      "skills": "Illustrator",
+      "cover": "../../../assets/moesif-banner11.png",
+      "display": "../../../assets/moesif-banner11.png",
+      "title": "End-to-End API Monetization with Kong, Stripe, and Moesif (Blog Header)",
+      "skills": "Illustator",
       "description": "",
-      "url": "https://www.moesif.com/blog/api-strategy/monetization/When-Should-you-Consider-Metered-Billing/"
+      "url": "https://www.moesif.com/blog/technical/stripe/kong/End-To-End-API-Monetization-With-Kong-Stripe-And-Moesif/"
     }
   ]
 }
