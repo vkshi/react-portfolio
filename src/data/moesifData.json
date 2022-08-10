@@ -1,10 +1,204 @@
 {
   "portfolio": [
     {
-      "cover": "/",
-      "title": "",
-      "description": "",
-      "url": ""
+      "cover": "../../../assets/sidebar-wide1.png",
+      "display": "../../../assets/sidebar-wide1.png",
+      "title": "App Sidebar Full",
+      "skills": "React.js, CSS",
+      "description": "This is the first part of my first large project at Moesif. I worked collaboratively with a frontend developer and another UI designer. In this project, my main role was writing the CSS code needed for the frontend styling to make sure everything was pixel perfect. This included writing the grid structure, the hover behaviors, and transition animations. As the company had a library of icons to work from, I also used React to import data and switch between the states of certain elements. The goal of this part is to redesign the sidebar so that it was less of a list and more in line with industory standards. We also wanted the navigation to be clearer as the previous sidebar did not provide a lot of information. Click the button below to see a comparison between the new and old designs.",
+      "url": "../../../assets/sidebar-wide.png"
+    },
+    {
+      "cover": "../../../assets/sidebar-narrow1.png",
+      "display": "../../../assets/sidebar-narrow1.png",
+      "title": "App Sidebar Narrow",
+      "skills": "React.js, CSS",
+      "description": "This is the second part of my first large project at Moesif. I worked collaboratively with a frontend developer and another UI designer. In this project, my main role was writing the CSS code needed for the frontend styling to make sure everything was pixel perfect. This included writing the grid structure, the hover behaviors, and transition animations. As the company had a library of icons to work from, I also used React to import data and switch between the states of certain elements. The goal of this part is to design a narrower version of the sidebar so that customers would be able to see more of their dashboard while still having access to navigation tools. Click the button below to see a comparison between the narrow and wide designs.",
+      "url": "../../../assets/sidebar-narrow.png"
+    },
+    {
+      "cover": "../../../assets/modal1.png",
+      "display": "../../../assets/modal1.png",
+      "title": "App Popup Modal",
+      "skills": "React.js, CSS",
+      "description": "This is the third part of my first large project at Moesif. I worked collaboratively with a frontend developer and another UI designer. In this project, my main role was writing the CSS code needed for the frontend styling to make sure everything was pixel perfect. This included writing the grid structure, the hover behaviors, and transition animations. As the company had a library of icons to work from, I also used React to import data and switch between the states of certain elements. The goal of this modal is to provide a wholistic view of all the features Moesif's application offers. Each button has a hover behavior that corresponds with a brief summary of what the feature provides, along with a unique image. One of the bugs I worked on with this project was making sure that none of the invisible boundaries of the buttons overlapped so that image flickering did not occur when hovering between buttons. My code was then used as template for other similar modal throughout the application. Click the button below to see the modal design and behavior in a screencap.",
+      "url": "../../../assets/modal.png"
+    },
+    {
+      "cover": "../../../assets/onboarding-sidebar1.png",
+      "display": "../../../assets/onboarding-sidebar2.png",
+      "title": "Onboarding Sidebar",
+      "skills": "React.js, CSS",
+      "description": "This is another part of the sidebar resign at Moesif. I worked collaboratively with a frontend developer and another UI designer. In this project, my main role was writing the CSS code needed for the frontend styling to make sure everything was pixel perfect. This included writing the grid structure, the hover behaviors, and transition animations. As the company had a library of icons to work from, I also used React to import data and switch between the states of certain elements. This sidebar came out of revamping the onboarding flow of Moesif's application. We wanted customers to have easier access to our documentation in case they had trouble onboarding. The menu is also available in a miniature form by clicking the bottom button on the main sidebar. Click the button below to see this sidebar and the onboarding page in a screencap.",
+      "url": "../../../assets/onboarding-sidebar.png"
+    },
+    {
+      "cover": "../../../assets/sprites-and-badges.png",
+      "display": "../../../assets/sprites-and-badges.png",
+      "title": "Main Website Sprites and Badges",
+      "skills": "React.js, CSS",
+      "description": "As a part of my daily tasks, I was in charge of maintaining the Moesif main website. This included updating the logos of our featured customers and adding certification badges to the footer when applicable.",
+      "url": "https://www.moesif.com/"
+    },
+    {
+      "cover": "../../../assets/guides-landing-page.png",
+      "display": "../../../assets/guides-landing-page.png",
+      "title": "Guides Landing Page",
+      "skills": "HTML, CSS, Liquid",
+      "description": "In ths project, I redesigned the guides landing page so that it was more in line with industry standards. This page was previously just an unordered list of titles and had no imagery. My first task was making sure that each list item was associated with a header, a title, and a short summary of the contents. Then I gridded the content so that it resembles most article pages.",
+      "url": "https://www.moesif.com/docs/guides/"
+    },
+    {
+      "cover": "../../../assets/ebook-landing-page.png",
+      "display": "../../../assets/ebook-landing-page.png",
+      "title": "E-Book, Casestudy, and Infographic Landing Page",
+      "skills": "HTML, CSS, Liquid, UI Research",
+      "description": "I researched landing paged for gated content and most of them featured the company colors either in a gradient, or within different elements of the page such as buttons. My goal in this redesign was to make Moesif's landing page more colorful as well as draw more attention to the featured image. In the month after my design was implemented, the click-through rate for our gated content doubled.",
+      "url": "https://www.moesif.com/blog/ebooks/2x-faster-time-to-revenue/"
+    },
+    {
+      "cover": "../../../assets/2x-faster-time-to-revenue-pdf.png",
+      "display": "../../../assets/2x-faster-time-to-revenue-pdf.png",
+      "title": "2x Faster Time to Revenue (PDF)",
+      "skills": "Illustrator, InDesign",
+      "description": "Part of my role at Moesif was designing the PDFs (such as E-Books) that are gated content. I made sure all our PDFs were pixel perfect and aligned with a grid. I also researched the image assets and edited them accordingly (recoloring and retouching as needed), proofed the written content, and ensured that the PDFs were small in file size but retained high image quality.",
+      "url": "../../../assets/2x-faster-time-to-revenue.pdf"
+    },
+    {
+      "cover": "../../../assets/2x-faster-time-to-revenue-web.png",
+      "display": "../../../assets/2x-faster-time-to-revenue-web.png",
+      "title": "2x Faster Time to Revenue (Website)",
+      "skills": "React.js, Illustator",
+      "description": "Part of my role at Moesif was updating our featured customers and casestudies page on our main website. These pages correspond with the casestudy PDFs that I also design. For the website, I make sure that all the elements are pixel perfect and that images are the smallest file size possible while maintaining their quality. I also add elements as needed such as, links, unordered lists and shoutout boxes.",
+      "url": "https://www.moesif.com/casestudies/2x-faster-time-to-revenue"
+    },
+    {
+      "cover": "../../../assets/infographic.png",
+      "display": "../../../assets/infographic.png",
+      "title": "Best Practices For Monetizing Your APIs (Infographic)",
+      "skills": "Illustrator, InDesign",
+      "description": "A member of the marketing team and I collaborated on this infographic. We both wanted this piece to be colorful, with a background that was reminiscent of the Moesif signature orange (but avoided the flesh tones zone). I floated the idea of the playful advertisement of our casestudies on the top and bottom of the infographic and my partner really liked it! The other elements isuch as the tables and charts were created in Illustrator.",
+      "url": "../../../assets/Best-Practices-For-Monetizing-Your-APIs-compressed.pdf"
+    },
+    {
+      "cover": "../../../assets/oreilly1.png",
+      "display": "../../../assets/oreilly.png",
+      "title": "O'Reilly Book Ad Insert/Cover",
+      "skills": "Illustrator",
+      "description": "This online and print ad/cover was a big project that went through several rounds of drafting between Moesif's marketing team and O'Reilly's team. During this project, I had to explain the difference between CMYK coloring and RGB coloring due to color variations between the print and web versions. The marketing team enjoyed my tessalation of icons, and I even turned some of our well-used solid images to outlines so that the styles matched.",
+      "url": "https://www.moesif.com/blog/ebooks/oreilly-api-strategy-for-decision-makers/"
+    },
+    {
+      "cover": "../../../assets/moesif-banner14.png",
+      "display": "../../../assets/moesif-banner14.png",
+      "title": "Reloadly Deploys Sophisticated API Analytics for Customer Success with Moesif (Video)",
+      "skills": "After Effect, Premiere Pro, Photoshop",
+      "description": "This was the biggest video project I worked on at Moesif. The source material came from a technical conference and it fell on me to edit the raw footage and make it presentable. Using premiere, I cut out filler words (such as ahhs and umms), long pauses, and repeated imformation. Then in After Effects, I added colorful backgrounds, the spinning cogs, text, and subtitles. This was my first time captioning any video and I definitely learned a lot, including how tedious subtitling can be! Afterwards, I combined all the short clips into one long video and created a splash screen as well as insert screens. The idea was to have both short clips so that they could be used as video ads, and the long video so that viewers can watch the full conference between the two speakers.",
+      "url": "https://www.youtube.com/watch?v=aN0X-s_ZLzA"
+    },
+    {
+      "cover": "../../../assets/moesif-banner1.png",
+      "display": "../../../assets/moesif-banner1.png",
+      "title": "Monitor API Issues Impacting Customers (Reddit Ad)",
+      "skills": "Illustrator, Image Asset Research",
+      "description": "One of my main daily tasks at Moesif was visual content creation, and most of these were static images used as ads or blog headers. I would amass image assets that fit a technical theme, then edit them all to fit Moesif's specific needs. I also experimented with our logo placement, as my preferred design was a logo that took up less real estate in one of the bottom corners.",
+      "url": "../../../assets/moesif-banner1.png"
+    },
+    {
+      "cover": "../../../assets/moesif-banner3.png",
+      "display": "../../../assets/moesif-banner3.png",
+      "title": "The Developer-Led Landscape (YouTube Splash Screen)",
+      "skills": "Illustrator, Image Asset Research",
+      "description": "One of my main daily tasks at Moesif was visual content creation, and most of these were static images used as ads or blog headers. I would amass image assets that fit a technical theme, then edit them all to fit Moesif's specific needs. I also experimented with our logo placement, as my preferred design was a logo that took up less real estate in one of the bottom corners.",
+      "url": "https://www.youtube.com/watch?v=p6HkBgLisGA"
+    },
+    {
+      "cover": "../../../assets/moesif-banner4.png",
+      "display": "../../../assets/moesif-banner4.png",
+      "title": "GraphQL in Enterprise (Blog Header)",
+      "skills": "Illustrator, Image Asset Research",
+      "description": "One of my main daily tasks at Moesif was visual content creation, and most of these were static images used as ads or blog headers. I would amass image assets that fit a technical theme, then edit them all to fit Moesif's specific needs. I also experimented with our logo placement, as my preferred design was a logo that took up less real estate in one of the bottom corners.",
+      "url": "https://www.moesif.com/blog/technical/graphql/GraphQL-In-Enterprise-What-It-Takes-To-Build-Deploy-And-Monitor-A-New-Enterprise-GraphQL-Service/"
+    },
+    {
+      "cover": "../../../assets/moesif-banner5.png",
+      "display": "../../../assets/moesif-banner5.png",
+      "title": "How to Debug an Unresponsive Elasticsearch Cluster (Blog Header)",
+      "skills": "Illustator, Image Asset Research",
+      "description": "One of my main daily tasks at Moesif was visual content creation, and most of these were static images used as ads or blog headers. I would amass image assets that fit a technical theme, then edit them all to fit Moesif's specific needs. I also experimented with our logo placement, as my preferred design was a logo that took up less real estate in one of the bottom corners.",
+      "url": "https://www.moesif.com/blog/technical/elasticsearch/How-to-Debug-an-Unresponsive-Elasticsearch-Cluster/"
+    },
+    {
+      "cover": "../../../assets/moesif-banner6.png",
+      "display": "../../../assets/moesif-banner6.png",
+      "title": "Ready, Set, Product-Led Growth (Blog Header)",
+      "skills": "Ilustrator, Image Asset Research",
+      "description": "One of my main daily tasks at Moesif was visual content creation, and most of these were static images used as ads or blog headers. I would amass image assets that fit a technical theme, then edit them all to fit Moesif's specific needs. I also experimented with our logo placement, as my preferred design was a logo that took up less real estate in one of the bottom corners.",
+      "url": "../../../assets/moesif-banner6.png"
+    },
+    {
+      "cover": "../../../assets/moesif-banner7.png",
+      "display": "../../../assets/moesif-podcast.png",
+      "title": "APIs for the Right Business Case (Podcast Splash Screen)",
+      "skills": "Illustator, Image Asset Research",
+      "description": "For Moesif's podcast splash screens, I wanted to move the design away from faceless silhouettes and more towards industry standard. I introduced using a photograph of our featured speaker instead of a vector, since we wanted people to recognize the the speaker. I also wanted to move away from the dull brown that was our podcast color.",
+      "url": "https://www.moesif.com/blog/podcasts/developer-marketing/Podcast-APIs-for-the-Right-Business-Case/"
+    },
+    {
+      "cover": "../../../assets/moesif-banner9.png",
+      "display": "../../../assets/moesif-banner9.png",
+      "title": "Meeting Moesif (Blog Header)",
+      "skills": "Illustrator, Image Asset Research",
+      "description": "One of my main daily tasks at Moesif was visual content creation, and most of these were static images used as ads or blog headers. I would amass image assets that fit a technical theme, then edit them all to fit Moesif's specific needs. I also experimented with our logo placement, as my preferred design was a logo that took up less real estate in one of the bottom corners.",
+      "url": "https://www.moesif.com/blog/business/company/Meeting-Moesif-with-SEO-Manager-Savannah-Whitman/"
+    },
+    {
+      "cover": "../../../assets/moesif-banner8.png",
+      "display": "../../../assets/moesif-banner8.png",
+      "title": "API Proxy vs API Gateway (Blog Header)",
+      "skills": "Illustrator, Image Asset Research",
+      "description": "One of my main daily tasks at Moesif was visual content creation, and most of these were static images used as ads or blog headers. I would amass image assets that fit a technical theme, then edit them all to fit Moesif's specific needs. I also experimented with our logo placement, as my preferred design was a logo that took up less real estate in one of the bottom corners.",
+      "url": "https://www.moesif.com/blog/technical/api-gateways/API-Proxy-Vs-API-Gateway-What-Are-The-Differences-And-Which-Should-You-Use/"
+    },
+    {
+      "cover": "../../../assets/moesif-banner2.png",
+      "display": "../../../assets/moesif-banner2.png",
+      "title": "Benefits of an API Program (Blog Header)",
+      "skills": "Illustator, Image Asset Research",
+      "description": "One of my main daily tasks at Moesif was visual content creation, and most of these were static images used as ads or blog headers. I would amass image assets that fit a technical theme, then edit them all to fit Moesif's specific needs. I also experimented with our logo placement, as my preferred design was a logo that took up less real estate in one of the bottom corners.",
+      "url": "https://www.moesif.com/blog/developer-platforms/api-analytics/Benefits-of-an-API-Program/"
+    },
+    {
+      "cover": "../../../assets/moesif-banner13.png",
+      "display": "../../../assets/moesif-banner13.png",
+      "title": "When Should you Consider Metered Billing? (Blog Header)",
+      "skills": "Illustrator, Image Asset Research",
+      "description": "One of my main daily tasks at Moesif was visual content creation, and most of these were static images used as ads or blog headers. I would amass image assets that fit a technical theme, then edit them all to fit Moesif's specific needs. I also experimented with our logo placement, as my preferred design was a logo that took up less real estate in one of the bottom corners.",
+      "url": "https://www.moesif.com/blog/api-strategy/monetization/When-Should-you-Consider-Metered-Billing/"
+    },
+    {
+      "cover": "../../../assets/moesif-banner10.png",
+      "display": "../../../assets/moesif-banner10.png",
+      "title": "How Stripe Created a Developer Paradise (Blog Header)",
+      "skills": "Illustrator, Image Asset Research",
+      "description": "One of my main daily tasks at Moesif was visual content creation, and most of these were static images used as ads or blog headers. I would amass image assets that fit a technical theme, then edit them all to fit Moesif's specific needs. I also experimented with our logo placement, as my preferred design was a logo that took up less real estate in one of the bottom corners.",
+      "url": "../../../assets/moesif-banner10.png"
+    },
+    {
+      "cover": "../../../assets/moesif-banner12.png",
+      "display": "../../../assets/moesif-banner12.png",
+      "title": "How to Monitor Azure API Management Performance with the Moesif Plugin (Blog Header)",
+      "skills": "Illustrator, Image Asset Research",
+      "description": "One of my main daily tasks at Moesif was visual content creation, and most of these were static images used as ads or blog headers. I would amass image assets that fit a technical theme, then edit them all to fit Moesif's specific needs. I also experimented with our logo placement, as my preferred design was a logo that took up less real estate in one of the bottom corners.",
+      "url": "https://www.moesif.com/blog/technical/azure-api-management/How-to-Monitor-Azure-API-Management-Performance-with-the-Moesif-Plugin/"
+    },
+    {
+      "cover": "../../../assets/moesif-banner11.png",
+      "display": "../../../assets/moesif-banner11.png",
+      "title": "End-to-End API Monetization with Kong, Stripe, and Moesif (Blog Header)",
+      "skills": "Illustator, Image Asset Research",
+      "description": "One of my main daily tasks at Moesif was visual content creation, and most of these were static images used as ads or blog headers. I would amass image assets that fit a technical theme, then edit them all to fit Moesif's specific needs. I also experimented with our logo placement, as my preferred design was a logo that took up less real estate in one of the bottom corners.",
+      "url": "https://www.moesif.com/blog/technical/stripe/kong/End-To-End-API-Monetization-With-Kong-Stripe-And-Moesif/"
     }
   ]
 }
