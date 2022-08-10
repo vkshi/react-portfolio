@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7d658968.css",
+    "main.js": "/static/js/main.daac089f.js",
+    "static/js/512.f14ba87a.chunk.js": "/static/js/512.f14ba87a.chunk.js",
+    "static/media/SHI_VICKY_RESUME.pdf": "/static/media/SHI_VICKY_RESUME.9ce0b5e02afffb93a475.pdf",
+    "static/media/helvetica-neu.ttf": "/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/index.html",
+    "main.7d658968.css.map": "/static/css/main.7d658968.css.map",
+    "main.daac089f.js.map": "/static/js/main.daac089f.js.map",
+    "512.f14ba87a.chunk.js.map": "/static/js/512.f14ba87a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d658968.css",
+    "static/js/main.daac089f.js"
+  ]
+}
