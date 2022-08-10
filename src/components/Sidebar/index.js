@@ -8,7 +8,6 @@ import {
   faHome,
   faUser,
   faFolderOpen,
-  faHamburger,
 } from '@fortawesome/free-solid-svg-icons';
 import KiLogo from '../../assets/images/KiLogo';
 
