@@ -1,4 +1,5 @@
 {
+  "homepage" : "https://vkshi.github.io/portfolio/",
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -28,6 +29,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm sun build",
+    "deply": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -53,6 +56,7 @@
   },
   "devDependencies": {
     "@svgr/core": "^6.3.0",
+    "gh-pages": "^4.0.0",
     "prettier": "^2.7.1"
   }
 }
