@@ -1,10 +1,8 @@
 {
-  "homepage" : "https://vkshi.github.io/portfolio/",
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@egjs/grid": "^1.11.0",
     "@emailjs/browser": "^3.6.2",
     "@fortawesome/free-brands-svg-icons": "^6.1.1",
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
@@ -14,7 +12,6 @@
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
     "animate.css": "^4.1.1",
-    "gsap-trial": "^3.10.4",
     "loaders.css": "^0.1.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -29,8 +26,6 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -56,7 +51,6 @@
   },
   "devDependencies": {
     "@svgr/core": "^6.3.0",
-    "gh-pages": "^4.0.0",
     "prettier": "^2.7.1"
   }
 }

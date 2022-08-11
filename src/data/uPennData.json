@@ -1,204 +1,204 @@
 {
   "portfolio": [
     {
-      "cover": "../../../assets/seniorproject1.png",
-      "display": "../../../assets/seniorproject-canvas.png",
+      "cover": "/assets/seniorproject1.png",
+      "display": "/assets/seniorproject-canvas.png",
       "title": "Senior Project: Visual Component",
       "skills": "Photoshop",
       "description": "I was always most interested in courses focused on pop culture in the visual studies field as I feel that this is the kind of media we consume the most. Pop culture is how visual studies as a field connects to the present, as the theories in this field of study do not always have to apply to old paintings. This project also allowed me to explore the recent increase of abuse towards diaspora Asians (due to the COVID-19 pandemic) with the history of violence that the Asian diaspora in the West has endured. Visual media does influence our biases, especially when humans are such visual creatures, which is why examining different Asian stereotypes and tropes was the focus of my senior project.",
       "url": "https://web.sas.upenn.edu/vlst2021exhibition/ki-shi/"
     },
     {
-      "cover": "../../../assets/seniorproject2.png",
-      "display": "../../../assets/seniorproject-thesis.png",
+      "cover": "/assets/seniorproject2.png",
+      "display": "/assets/seniorproject-thesis.png",
       "title": "Senior Project: Research Component",
       "skills": "Academic Research + Writing",
       "description": "I was always most interested in courses focused on pop culture in the visual studies field as I feel that this is the kind of media we consume the most. Pop culture is how visual studies as a field connects to the present, as the theories in this field of study do not always have to apply to old paintings. This project also allowed me to explore the recent increase of abuse towards diaspora Asians (due to the COVID-19 pandemic) with the history of violence that the Asian diaspora in the West has endured. Visual media does influence our biases, especially when humans are such visual creatures, which is why examining different Asian stereotypes and tropes was the focus of my senior project.",
       "url": "https://web.sas.upenn.edu/vlst2021exhibition/ki-shi/"
     },
     {
-      "cover": "../../../assets/helpfulapp.png",
-      "display": "../../../assets/helpfulapp.png",
+      "cover": "/assets/helpfulapp.png",
+      "display": "/assets/helpfulapp.png",
       "title": "REPRESENT!",
       "skills": "Figma, UI Research",
       "description": "This was the most challeging project of DSGN 234, a course on web apps. The task was to come up with an app concept, design it, then model its functionality with Figma. I wanted to create an app that would cater to audiences of color so that they can discuss representation in media, as that is something in which I have a lot of interest. After much consideration, my resulting product was something of a combination between a forum and a dictionary. I wanted to allow users to be able to comment on media and learn about stereotypes/tropes that are frequently applied to certain racial groups in the same app.",
       "url": "https://www.figma.com/file/ydQpsqHyE1rlsmVS8RU9fC/Helpful-App?node-id=17%3A42"
     },
     {
-      "cover": "../../../assets/cottoncandyzine5.png",
-      "display": "../../../assets/cottoncandyzine4.png",
+      "cover": "/assets/cottoncandyzine5.png",
+      "display": "/assets/cottoncandyzine4.png",
       "title": "Cotton Candy Zine",
       "skills": "Photoshop, InDesign",
       "description": "While creating this short zine, I focused on limiting myself to a specific palette and theme, which is cotton candy. However, though the zine visually emphasizes cotton candy, I hope the ideas of nostalgia, childhood, and age are also recieved.",
-      "url": "../../../assets/cottoncandyzine.pdf"
+      "url": "/assets/cottoncandyzine.pdf"
     },
     {
-      "cover": "../../../assets/riso7.png",
-      "display": "../../../assets/riso.png",
+      "cover": "/assets/riso7.png",
+      "display": "/assets/riso.png",
       "title": "Identity Posters Series",
       "skills": "Illustrator, Photoshop",
       "description": "The assignment was to create a set of eight posters that fit the theme: Identity. I chose to emphasize my racial identity and explore how that affects the other facets of my life and/or intersects my other identities. I also wanted to use a bold yellow color scheme. As much as I like to deny it, the color yellow is a part of the East Asian American identity. But instead of it having negative connotations, I wanted to turn it into something that adds warmth and defiance to my identity.",
-      "url": "../../../assets/riso.pdf"
+      "url": "/assets/riso.pdf"
     },
     {
-      "cover": "../../../assets/bposter1.png",
-      "display": "../../../assets/bposter.png",
+      "cover": "/assets/bposter1.png",
+      "display": "/assets/bposter.png",
       "title": "Biennial Identity Project: Poster",
       "skills": "Illustrator",
       "description": "This is the first part of the larger design project that I accomplished in this class. The idea was to choose an existing or future art biennial and create an identity for the event. I picked the Glasgow International Biennial because its theme for 2020 (postponed) was Attention, which inspired me to use neon colors. Before I decided neon signs with QR codes were probably more eye-catching than regular posters, I had drafted some that were more traditional-looking. I also learned a lot about masking and making photorealistic mockups with this project.",
-      "url": "../../../assets/bposter.pdf"
+      "url": "/assets/bposter.pdf"
     },
     {
-      "cover": "../../../assets/bframe3.png",
-      "display": "../../../assets/bframe1.png",
+      "cover": "/assets/bframe3.png",
+      "display": "/assets/bframe1.png",
       "title": "Biennial Identity Project: Video",
       "skills": "After Effects",
       "description": "This is the second part of the larger design project that I accomplished in this class. The idea was to choose an existing or future art biennial and create an identity for the event. For the motion part of this project, I wanted to create something that had a social media feel to it. I made these videos square-shaped reminiscent of Instagram. They are meant to be eyegrabbing, but quickly and easily understood. To accomplish that, I focused on bright colors, a recognizable pattern (the neon tartan I created), and smooth transitions. My professor suggested adding audio to tie everything together, so I found a track that features electric bagpipes.",
-      "url": "../../../assets/bmotion2.mp4"
+      "url": "/assets/bmotion2.mp4"
     },
     {
-      "cover": "../../../assets/bprint1.png",
-      "display": "../../../assets/bprint.png",
+      "cover": "/assets/bprint1.png",
+      "display": "/assets/bprint.png",
       "title": "Biennial Identity Project: Print Media",
       "skills": "Illustrator, InDesign",
       "description": "This is the third part of the larger design project that I accomplished in this class. The idea was to choose an existing or future art biennial and create an identity for the event. For the print media, I was thinking more pamphlet than book with a clean layout. I struggled a bit to balance the information on the pages; I didn't want the layout to be overcrowded. I also relied on the neon tartan pattern and neon colors to tie it back to the overarching identity.",
-      "url": "../../../assets/bprint.pdf"
+      "url": "/assets/bprint.pdf"
     },
     {
-      "cover": "../../../assets/bweb1.png",
-      "display": "../../../assets/bweb1.png",
+      "cover": "/assets/bweb1.png",
+      "display": "/assets/bweb1.png",
       "title": "Biennial Identity Project: Website",
       "skills": "Figma",
       "description": "This is the final part of the larger design project that I accomplished in this class. The idea was to choose an existing or future art biennial and create an identity for the event. Since the last part of this project was a website design, I wanted to tie it back to the posters I made in the first step. The idea is that once people scan the QR code on those posters, they would lead to this website. They can explore the website at their leisure, which would provide all the necessary information about the biennial. Below was my first sketch of the webpage design, to which my professor commented that it seemed to be very motion-driven. In my final design, I tried to lessen that aspect.",
       "url": "https://www.figma.com/file/Pr2Sb3tFlrM0e4Dk8itAWT/GI2021?node-id=19%3A2"
     },
     {
-      "cover": "../../../assets/mapbox.png",
-      "display": "../../../assets/mapbox.png",
+      "cover": "/assets/mapbox.png",
+      "display": "/assets/mapbox.png",
       "title": "Map Project",
       "skills": "MapBox, HTML, CSS",
       "description": "For this project, the professor wanted us to graph information on a map. I used Mapbox and datasets from Open Data Philly for resources. I limited my scope to just Philadelphia. For my project, I wanted to compare several things. First, I was interested in the poverty levels of difference districts in Philadelphia. Second, I wanted to compare locations of gun violence to see if they were more frequent or not in areas of high poverty. Last, I also wanted to see if there was a strong correlation between fatalities resulting from gun violence and the racial identities of the victims.",
       "url": "https://vkshi.github.io/map-project/"
     },
     {
-      "cover": "../../../assets/btstyle1.png",
-      "display": "../../../assets/btstyle1.png",
+      "cover": "/assets/btstyle1.png",
+      "display": "/assets/btstyle1.png",
       "title": "BT.STYLE",
       "skills": "HTML, CSS, Photoshop, Figma",
       "description": "The fanpage project allowed me to practice HTML, CSS, Photoshop, and cohesive designing for a multi-page website. Through this project, I learned how to minimize the amount of CSS I needed. Instead of creating a new CSS script for each individual HTML page, I categorized the pages and created one CSS script for each section. This is also the first assignments where I had to use Figma to designed the website before coding it.",
       "url": "https://vkshi.github.io/btstyle/"
     },
     {
-      "cover": "../../../assets/2020series.png",
-      "display": "../../../assets/2020series1.png",
+      "cover": "/assets/2020series.png",
+      "display": "/assets/2020series1.png",
       "title": "2020 Series",
       "skills": "HTML, CSS",
       "description": "The 2020 Series page is the first website I ever coded by myself. Through this project I learned basic HTML + CSS structure and how to use GitHub Pages. The page itself is quite simple, but this project helped me get familiar with div containers and flexbox organization.",
       "url": "https://vkshi.github.io/2020series/index.html"
     },
     {
-      "cover": "../../../assets/codingpractices1.png",
-      "display": "../../../assets/codingpractices1.png",
+      "cover": "/assets/codingpractices1.png",
+      "display": "/assets/codingpractices1.png",
       "title": "Coding Practices: CSS Animation",
       "skills": "HTML, CSS",
       "description": "Animation practice with CSS. I do enjoy making rainbows!",
       "url": "https://ki-animation-practice.glitch.me/"
     },
     {
-      "cover": "../../../assets/codingpractices2.png",
-      "display": "../../../assets/codingpractices2.png",
+      "cover": "/assets/codingpractices2.png",
+      "display": "/assets/codingpractices2.png",
       "title": "Coding Practices: CSS Media Queries",
       "skills": "HTML, CSS",
       "description": "Media queries with CSS. Open the exercise with the button below before toggling your webpage size!",
       "url": "https://media-query-activity.glitch.me/"
     },
     {
-      "cover": "../../../assets/codingpractices3.png",
-      "display": "../../../assets/codingpractices3.png",
+      "cover": "/assets/codingpractices3.png",
+      "display": "/assets/codingpractices3.png",
       "title": "Coding Practices: jQuery",
       "skills": "HTML, CSS, jQuery",
       "description": "A quick jQuery exercise. Click the image or text after opening the page with the button below to receive a different coffee order!",
       "url": "https://jquery-act1.glitch.me/"
     },
     {
-      "cover": "../../../assets/stilllife4.png",
-      "display": "../../../assets/stilllife.png",
+      "cover": "/assets/stilllife4.png",
+      "display": "/assets/stilllife.png",
       "title": "Still-Life",
       "skills": "Illustrator, Photoshop, Processing",
       "description": "This was a fun assignment that allowed us to practice using all the software we've learned. The top left is the original still life I set up and the others are done in the following programs: Illustrator (top right), Photoshop (bottom left), and Processing (bottom right).",
-      "url": "../../../assets/stilllife.png"
+      "url": "/assets/stilllife.png"
     },
     {
-      "cover": "../../../assets/wearable.jpg",
-      "display": "../../../assets/wearable.jpg",
+      "cover": "/assets/wearable.jpg",
+      "display": "/assets/wearable.jpg",
       "title": "Wearable",
       "skills": "Processing, Photoshop",
       "description": "This is one of the first projects I've ever done using a dataset. The goal was to use Processing to create a pattern from some data that I'd collect in a week. The professor wanted us to leave the class with some coding knowledge.",
-      "url": "../../../assets/wearable.jpg"
+      "url": "/assets/wearable.jpg"
     },
     {
-      "cover": "../../../assets/productdsgn.png",
-      "display": "../../../assets/productdsgn.png",
+      "cover": "/assets/productdsgn.png",
+      "display": "/assets/productdsgn.png",
       "title": "Product Design: SIRENCE",
       "skills": "Illustrator",
       "description": "This was one of my most interesting assignments from DSGN 264, which was to come up with an original (fantasical or not) product and then describe its use in four panels. I came up with SIRENCE, a sleep aid device that would convert loud noises into soothing sleep waves. This project was done entirely in Illustrator and I focused a lot on creating easy-to-understand isotypes.",
-      "url": "../../../assets/productdsgn.pdf"
+      "url": "/assets/productdsgn.pdf"
     },
     {
-      "cover": "../../../assets/branding1.png",
-      "display": "../../../assets/branding2.png",
+      "cover": "/assets/branding1.png",
+      "display": "/assets/branding2.png",
       "title": "Branding Project: Booksmith",
       "skills": "Illustrator, InDesign, Photoshop",
       "description": "As the most demanding assignment of DSGN 269, a typography course, the branding manual project served to help me learn the value of a well thought out grid system. There were several parts of this project, from pitching services to designing logos to determining typefaces. The professor stressed the importance of maintaining a cohensive theme for every element of the proposed service. Since my group decide to brand a bookbinding atelier, we focused our design around the Mrs Smith typeface, which is a derivative from the well-known Baskerville typeface. Our reasoning for this was to invoke a modern twist to the established and well-loved art of handbinding books.",
-      "url": "../../../assets/branding.pdf"
+      "url": "/assets/branding.pdf"
     },
     {
-      "cover": "../../../assets/bookcover.png",
-      "display": "../../../assets/bookcover.png",
+      "cover": "/assets/bookcover.png",
+      "display": "/assets/bookcover.png",
       "title": "Book Cover Design Project",
       "skills": "Illustrator",
       "description": "This project was a quick and fun wrapping-up-the-semester assignment. For this, the professor allowed us to pick a short story from her pre-selected collection and design a typographic cover for it. I tried to convey the idea of duplication as well as duplicity with my cover.",
-      "url": "../../../assets/bookcover.pdf"
+      "url": "/assets/bookcover.pdf"
     },
     {
-      "cover": "../../../assets/abstract1.png",
-      "display": "../../../assets/abstract1studies.png",
+      "cover": "/assets/abstract1.png",
+      "display": "/assets/abstract1studies.png",
       "title": "Sound-Visual Design",
       "skills": "Illustrator",
       "description": "The assignment was to create an abstract black and white design for a sound that I recorded in my daily life. I decided to record the sound of my coffee maker brewing. To the left are six quick studies I did before the final design, which you can find after clicking the button below. This assignment was done in Illustrator and familiarized me with the program interface as well as basic shape-making.",
-      "url": "../../../assets/abstract1.png"
+      "url": "/assets/abstract1.png"
     },
     {
-      "cover": "../../../assets/abstract2.png",
-      "display": "../../../assets/abstract2studies.png",
+      "cover": "/assets/abstract2.png",
+      "display": "/assets/abstract2studies.png",
       "title": "Poem-Visual Design",
       "skills": "Illustrator",
       "description": "The assignment was to create an abstract design based on a passage from Italo Calvino's Invisible Cities. The city of my choice was Eutropia, described as a trade city. To the left are three quick studies I did before the final design, which you can find after clicking the button below. This assignment was done in Illustrator and the professor focused on palette choice and pattern making.",
-      "url": "../../../assets/abstract2.png"
+      "url": "/assets/abstract2.png"
     },
     {
-      "cover": "../../../assets/storyboard2.png",
-      "display": "../../../assets/storyboard1.png",
+      "cover": "/assets/storyboard2.png",
+      "display": "/assets/storyboard1.png",
       "title": "Storyboarding from Poetry",
       "skills": "Photoshop, Premiere Pro",
       "description": "The assignment was to make a short video base on a poem of my choice. My chosen poem is Ijeoma Umebinyuo's Diaspora Blues. I used a bird motif to describe the loneliness of being straddled between two cultures, with a little bit of humor sprinked in to lighten the mood. I created the frames of this short in Photoshop, then edited the sequence and audio in Premiere Pro.",
-      "url": "../../../assets/storyboard.mp4"
+      "url": "/assets/storyboard.mp4"
     },
     {
-      "cover": "../../../assets/small.png",
-      "display": "../../../assets/small.png",
+      "cover": "/assets/small.png",
+      "display": "/assets/small.png",
       "title": "Graphing a Small Dataset",
       "skills": "Illustrator",
       "description": "The goal of this assignment was to design a graph for a small self-collected dataset. I picked some arbitrary categories and kept track of the data for a week. Then I decided to display the data using radar graphs. Since the data I gathered reminded me of character status pages in video games, I decided to organize my information in that style.",
-      "url": "../../../assets/small.png"
+      "url": "/assets/small.png"
     },
     {
-      "cover": "../../../assets/tableau2.png",
-      "display": "../../../assets/tableau1.png",
+      "cover": "/assets/tableau2.png",
+      "display": "/assets/tableau1.png",
       "title": "Graphing a Dataset Over Time",
       "skills": "Tableau",
       "description": "The was my first project using Tableau. The goal was to use datasets that had a time element to it, so I chose to chart the increase in UPenn's wealth over twenty years. This was hard to scale since the numbers were so big!",
-      "url": "../../../assets/tableau.pdf"
+      "url": "/assets/tableau.pdf"
     }
   ]
 }
