@@ -1,124 +1,124 @@
 {
   "portfolio": [
     {
-      "cover": "../../../assets/legacyportfolio.png",
-      "display": "../../../assets/legacyportfolio.png",
+      "cover": "/assets/legacyportfolio.png",
+      "display": "/assets/legacyportfolio.png",
       "title": "Legacy Portfolio",
       "skills": "HTML, CSS, JavaScript",
       "description": "Towards the end of my senior year, I started my first portfolio website. Back then, I was used to making multiple HTML files and linking them together as static pages. As you can see, I also got really excited when I discovered iframes, which was heavily featured in this old website. What I'm most proud of in this old website is the sidebar, since it uses JavaScript to expand and retract.",
       "url": "https://vkshi.github.io/portfolio-legacy/"
     },
     {
-      "cover": "../../../assets/rose2.png",
-      "display": "../../../assets/rose1.png",
+      "cover": "/assets/rose2.png",
+      "display": "/assets/rose1.png",
       "title": "Rose: A Short Stopmotion Film",
       "skills": "Photography, Premiere Pro",
       "description": "This is the first stopmotion film I have ever made and I believe it was for one of the core courses of the visual studies track. I wanted to play with the concepts of the organic and the man-made. Stopmotion is definitely one of the most difficult media with which I've ever worked. Besides the sheer amount of photos it takes, keeping the light steady was nearly impossible to do in the dining room!",
-      "url": "../../../assets/rose.mp4"
+      "url": "/assets/rose.mp4"
     },
     {
-      "cover": "../../../assets/kitsch.png",
-      "display": "../../../assets/kitsch.png",
+      "cover": "/assets/kitsch.png",
+      "display": "/assets/kitsch.png",
       "title": "Kitsch Remix: Philly Skyline",
       "skills": "Photoshop, Art Style Research",
       "description": "Ths was a fun project that I did for my professor when we were looking at Thomas Kinkade while studying styles of design. It took me a few tries to get it right (you can see the earlier versions in the PDF), but she was very satisfied with the final product. This was also a great masking practice, especially when I decided to make the trees various different colors.",
-      "url": "../../../assets/kitsch.pdf"
+      "url": "/assets/kitsch.pdf"
     },
     {
-      "cover": "../../../assets/dragon3.gif",
-      "display": "../../../assets/dragon.gif",
+      "cover": "/assets/dragon3.gif",
+      "display": "/assets/dragon.gif",
       "title": "Daisy Johnson: Zodiac Sign Dragon",
       "skills": "Photoshop, Gif-making",
       "description": "This piece was made for a client who wanted a set of creatives revolving around this character's Eastern zodiac sign. After some research on the Chinese zodiac, I found that Daisy's birthday was a nice detailed nod towards her ethnicity. 1988 was the year of the earth dragon and Daisy's superpowers allows her to gather vibrations and form earthquakes (hence her codename: Quake). I enjoyed this project thoroughly as I got to design something both aesthetically pleasing and meaningful.",
-      "url": "../../../assets/dragon.gif"
+      "url": "/assets/dragon.gif"
     },
     {
-      "cover": "../../../assets/daisybd1.png",
-      "display": "../../../assets/daisybd.png",
+      "cover": "/assets/daisybd1.png",
+      "display": "/assets/daisybd.png",
       "title": "Birthday for Daisy",
       "skills": "Photoshop",
       "description": "This is one of my older works. It was done for an online event celebrating the birthday of the character Daisy Johnson from the TV show Agents of SHIELD. I focused on patterns and textures while maintaining a minimal and clean design.",
-      "url": "../../../assets/daisybd.png"
+      "url": "/assets/daisybd.png"
     },
     {
-      "cover": "../../../assets/poi1.png",
-      "display": "../../../assets/poi.png",
+      "cover": "/assets/poi1.png",
+      "display": "/assets/poi.png",
       "title": "Person of Interest: This Is War",
       "skills": "Photoshop",
       "description": "Another old work, this piece help me get myself familiarized with how to recolor images. Since I wanted the photoset to have bleak feeling to it, I had to learn how to desaturize each screencap so that the color profile all resembled each other. Nowadays, I'm a pro at all the coloring tools Photoshop has to offer. As you can see, I also had fun picking and styling the typeface for this piece.",
-      "url": "../../../assets/poi.png"
+      "url": "/assets/poi.png"
     },
     {
-      "cover": "../../../assets/icons.png",
-      "display": "../../../assets/icons.png",
+      "cover": "/assets/icons.png",
+      "display": "/assets/icons.png",
       "title": "Various Icons & Icon Packs",
       "skills": "Photoshop",
       "description": "These are miscellaneous icons I've made for various people on tumblr.com. Users on the platform enjoy customizing their blog pages and will often request banners and icons from content makers. A skill I perfected over the years after making all these graphics is masking. I've gotten really good at cutting out people and objects from busy backgrounds on Photoshop!",
-      "url": "../../../assets/icons.png"
+      "url": "/assets/icons.png"
     },
     {
-      "cover": "../../../assets/tumblr1.gif",
-      "display": "../../../assets/tumblr1.gif",
+      "cover": "/assets/tumblr1.gif",
+      "display": "/assets/tumblr1.gif",
       "title": "Winter BT21 Header",
       "skills": "Photoshop, Gif-making",
       "description": "These are miscellaneous banners I've made for various people on tumblr.com. Users on the platform enjoy customizing their blog pages and will often request banners and icons from content makers. One of the most popular styles utilizes moving texture, as shown above. A skill that gif-makers on Tumblr have to master is condensing all these moving frames into an image that is less than 2MB (although I believe recently Tumblr has increased their size limit). Another skill I perfected over the years after making all these graphics is masking. I've gotten really good at cutting out people and objects from busy backgrounds on Photoshop!",
-      "url": "../../../assets/tumblr1.gif"
+      "url": "/assets/tumblr1.gif"
     },
     {
-      "cover": "../../../assets/tumblr3.gif",
-      "display": "../../../assets/tumblr3.gif",
+      "cover": "/assets/tumblr3.gif",
+      "display": "/assets/tumblr3.gif",
       "title": "RM & V Header",
       "skills": "Photoshop, Gif-making",
       "description": "These are miscellaneous banners I've made for various people on tumblr.com. Users on the platform enjoy customizing their blog pages and will often request banners and icons from content makers. One of the most popular styles utilizes moving texture, as shown above. A skill that gif-makers on Tumblr have to master is condensing all these moving frames into an image that is less than 2MB (although I believe recently Tumblr has increased their size limit). Another skill I perfected over the years after making all these graphics is masking. I've gotten really good at cutting out people and objects from busy backgrounds on Photoshop!",
-      "url": "../../../assets/tumblr3.gif"
+      "url": "/assets/tumblr3.gif"
     },
     {
-      "cover": "../../../assets/tumblr5.gif",
-      "display": "../../../assets/tumblr5.gif",
+      "cover": "/assets/tumblr5.gif",
+      "display": "/assets/tumblr5.gif",
       "title": "Summer BTS Header",
       "skills": "Photoshop, Gif-making",
       "description": "These are miscellaneous banners I've made for various people on tumblr.com. Users on the platform enjoy customizing their blog pages and will often request banners and icons from content makers. One of the most popular styles utilizes moving texture, as shown above. A skill that gif-makers on Tumblr have to master is condensing all these moving frames into an image that is less than 2MB (although I believe recently Tumblr has increased their size limit). Another skill I perfected over the years after making all these graphics is masking. I've gotten really good at cutting out people and objects from busy backgrounds on Photoshop!",
-      "url": "../../../assets/tumblr5.gif"
+      "url": "/assets/tumblr5.gif"
     },
     {
-      "cover": "../../../assets/tumblr6.gif",
-      "display": "../../../assets/tumblr6.gif",
+      "cover": "/assets/tumblr6.gif",
+      "display": "/assets/tumblr6.gif",
       "title": "Header for The Quakerider Writers Guild",
       "skills": "Photoshop, Gif-making",
       "description": "These are miscellaneous banners I've made for various people on tumblr.com. Users on the platform enjoy customizing their blog pages and will often request banners and icons from content makers. One of the most popular styles utilizes moving texture, as shown above. A skill that gif-makers on Tumblr have to master is condensing all these moving frames into an image that is less than 2MB (although I believe recently Tumblr has increased their size limit). Another skill I perfected over the years after making all these graphics is masking. I've gotten really good at cutting out people and objects from busy backgrounds on Photoshop!",
-      "url": "../../../assets/tumblr6.gif"
+      "url": "/assets/tumblr6.gif"
     },
     {
-      "cover": "../../../assets/tumblr4.gif",
-      "display": "../../../assets/tumblr4.gif",
+      "cover": "/assets/tumblr4.gif",
+      "display": "/assets/tumblr4.gif",
       "title": "Monica Rambeau Header",
       "skills": "Photoshop, Gif-making",
       "description": "These are miscellaneous banners I've made for various people on tumblr.com. Users on the platform enjoy customizing their blog pages and will often request banners and icons from content makers. One of the most popular styles utilizes moving texture, as shown above. A skill that gif-makers on Tumblr have to master is condensing all these moving frames into an image that is less than 2MB (although I believe recently Tumblr has increased their size limit). Another skill I perfected over the years after making all these graphics is masking. I've gotten really good at cutting out people and objects from busy backgrounds on Photoshop!",
-      "url": "../../../assets/tumblr4.gif"
+      "url": "/assets/tumblr4.gif"
     },
     {
-      "cover": "../../../assets/tumblr7.gif",
-      "display": "../../../assets/tumblr7.gif",
+      "cover": "/assets/tumblr7.gif",
+      "display": "/assets/tumblr7.gif",
       "title": "Header for Jipuragi",
       "skills": "Photoshop, Gif-making",
       "description": "These are miscellaneous banners I've made for various people on tumblr.com. Users on the platform enjoy customizing their blog pages and will often request banners and icons from content makers. One of the most popular styles utilizes moving texture, as shown above. A skill that gif-makers on Tumblr have to master is condensing all these moving frames into an image that is less than 2MB (although I believe recently Tumblr has increased their size limit). Another skill I perfected over the years after making all these graphics is masking. I've gotten really good at cutting out people and objects from busy backgrounds on Photoshop!",
-      "url": "../../../assets/tumblr7.gif"
+      "url": "/assets/tumblr7.gif"
     },
     {
-      "cover": "../../../assets/tumblr8.gif",
-      "display": "../../../assets/tumblr8.gif",
+      "cover": "/assets/tumblr8.gif",
+      "display": "/assets/tumblr8.gif",
       "title": "Vincenzo Header",
       "skills": "Photoshop, Gif-making",
       "description": "These are miscellaneous banners I've made for various people on tumblr.com. Users on the platform enjoy customizing their blog pages and will often request banners and icons from content makers. One of the most popular styles utilizes moving texture, as shown above. A skill that gif-makers on Tumblr have to master is condensing all these moving frames into an image that is less than 2MB (although I believe recently Tumblr has increased their size limit). Another skill I perfected over the years after making all these graphics is masking. I've gotten really good at cutting out people and objects from busy backgrounds on Photoshop!",
-      "url": "../../../assets/tumblr8.gif"
+      "url": "/assets/tumblr8.gif"
     },
     {
-      "cover": "../../../assets/tumblr2.gif",
-      "display": "../../../assets/tumblr2.gif",
+      "cover": "/assets/tumblr2.gif",
+      "display": "/assets/tumblr2.gif",
       "title": "Header for Whistlingwindtree",
       "skills": "Photoshop, Gif-making",
       "description": "These are miscellaneous banners I've made for various people on tumblr.com. Users on the platform enjoy customizing their blog pages and will often request banners and icons from content makers. One of the most popular styles utilizes moving texture, as shown above. A skill that gif-makers on Tumblr have to master is condensing all these moving frames into an image that is less than 2MB (although I believe recently Tumblr has increased their size limit). Another skill I perfected over the years after making all these graphics is masking. I've gotten really good at cutting out people and objects from busy backgrounds on Photoshop!",
-      "url": "../../../assets/tumblr2.gif"
+      "url": "/assets/tumblr2.gif"
     }
   ]
 }
