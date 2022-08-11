@@ -1,7 +1,7 @@
 {
   "portfolio": [
     {
-      "cover": "../../../assets/sidebar-wide1.png",
+      "cover": "/assets/sidebar-wide1.png",
       "display": "../../../assets/sidebar-wide1.png",
       "title": "App Sidebar Full",
       "skills": "React.js, CSS",
