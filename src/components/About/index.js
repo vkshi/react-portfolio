@@ -38,8 +38,8 @@ const About = () => {
             Hi, My name is Ki and I'm a designer who can code. I graduated in
             May 2021 and have a Bachelor of Arts in Visual Studies from the
             University of Pennsylvania. Welcome to my portfolio! This is coded
-            with React.js and SCSS. It's currently populated projects from my
-            first job and my undergraduate coursework.
+            with React.js and SCSS. It's currently populated with projects from
+            my first job and my undergraduate coursework.
           </p>
           <p>
             I am trained in graphic design, branding, and web development via
