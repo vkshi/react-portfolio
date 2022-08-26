@@ -41,7 +41,11 @@ const Home = () => {
               index={15}
             />
           </h1>
-          <h2>Frontend Developer | UI/UX Designer | Graphic Designer</h2>
+          <h2>
+            I'm an <b>UX Engineer</b> based in San Francisco, CA with experience
+            in designing and deploying websites. I also work in graphic and ad
+            design.
+          </h2>
           <div className="button-container">
             <a
               href={Resume}

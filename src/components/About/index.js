@@ -35,26 +35,27 @@ const About = () => {
             />
           </h1>
           <p>
-            Hi! My name is Ki and I am a frontend developer and a designer. I
-            graduated in May 2021 and have a Bachelor of Arts in Visual Studies
-            from the University of Pennsylvania! Welcome to my portfolio! This
-            is coded with React.js and SCSS. It's currently populated with
-            coursework and projects from my first job.
+            Hi, My name is Ki and I'm a designer who can code. I graduated in
+            May 2021 and have a Bachelor of Arts in Visual Studies from the
+            University of Pennsylvania. Welcome to my portfolio! This is coded
+            with React.js and SCSS. It's currently populated projects from my
+            first job and my undergraduate coursework.
           </p>
           <p>
             I am trained in graphic design, branding, and web development via
-            the Adobe Suite, HTML, CSS/SCSS, Javascript, and React.js. My
-            back-end skills are more limited, but I can do some object-oriented
-            programming with Java and data analysis with Python/Panda. I am an
-            eager student and will happily engage with other coding languages if
-            given a chance to learn them.
+            the Adobe Suite, Figma, HTML, CSS/SCSS, Javascript, and React.js. I
+            can also do some object-oriented programming with Java and data
+            analysis with Python/Panda, but I prefer the frontend. I am an eager
+            student and will happily engage with other coding languages if given
+            a chance to learn them.
           </p>
 
           <p>
-            I want to grow both as a designer and a developer. Although I am
-            very independent, I have yet had the chance to work as a team member
-            alongside other designers and developers. I am currently seeking
-            collaborative opportunities!
+            I am told that I'm friendly and easily to work with, which is great
+            because I worked cross-functionally among multiple teams on a daily
+            basis in my last position. Curently, I am looking for my next
+            opportunity where I can continue to grow both as a designer and a
+            developer.
           </p>
           <a
             href={Resume}

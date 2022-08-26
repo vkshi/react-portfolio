@@ -47,16 +47,14 @@ const Moesif = () => {
           alt="portfolio images"
         />
         <div className="text-zone">
-          <h1>{moesifData.portfolio[currentPopup]?.title}</h1>
-          <p>{moesifData.portfolio[currentPopup]?.description}</p>
           <a
-            className="flat-button"
             target="_blank"
             rel="noreferrer"
             href={moesifData.portfolio[currentPopup]?.url}
           >
-            More
+            <h1>{moesifData.portfolio[currentPopup]?.title}</h1>
           </a>
+          <p>{moesifData.portfolio[currentPopup]?.description}</p>
         </div>
       </Popup>
       <Loader type="ball-scale-multiple" />

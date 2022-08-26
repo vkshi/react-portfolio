@@ -131,3 +131,12 @@
   animation: fadeIn 1s forwards;
   animation-delay: 1s;
 }
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+    color: #ffb580;
+  }
+}

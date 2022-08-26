@@ -47,16 +47,14 @@ const Freelance = () => {
           alt="portfolio images"
         />
         <div className="text-zone">
-          <h1>{freelanceData.portfolio[currentPopup]?.title}</h1>
-          <p>{freelanceData.portfolio[currentPopup]?.description}</p>
           <a
-            className="flat-button"
             target="_blank"
             rel="noreferrer"
             href={freelanceData.portfolio[currentPopup]?.url}
           >
-            More
+            <h1>{freelanceData.portfolio[currentPopup]?.title}</h1>
           </a>
+          <p>{freelanceData.portfolio[currentPopup]?.description}</p>
         </div>
       </Popup>
       <Loader type="ball-scale-multiple" />
