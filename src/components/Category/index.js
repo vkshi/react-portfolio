@@ -9,19 +9,13 @@ const Category = () => {
       <div className="container category-container category-page">
         <NavLink
           exact="true"
-          className="category upenn"
-          activeclassname="active"
-          to="/upenn"
-        >
-          UPENN
-        </NavLink>
-        <NavLink
-          exact="true"
           className="category moesif"
           activeclassname="active"
           to="/moesif"
         >
-          MOESIF
+          <span>
+            <h1>MOESIF</h1> <br /> <h6>(UI/UX, Frontend, Marketing/Content)</h6>
+          </span>
         </NavLink>
         <NavLink
           exact="true"
@@ -29,7 +23,19 @@ const Category = () => {
           activeclassname="active"
           to="/freelance"
         >
-          FREELANCE
+          <span>
+            <h1>Freelance</h1> <br /> <h6>(Graphic Design, MISC)</h6>
+          </span>
+        </NavLink>
+        <NavLink
+          exact="true"
+          className="category upenn"
+          activeclassname="active"
+          to="/upenn"
+        >
+          <span>
+            <h1>UPENN</h1> <br /> <h6>(Coursework)</h6>
+          </span>
         </NavLink>
       </div>
       <Loader type="ball-scale-multiple" />
