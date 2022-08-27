@@ -2,9 +2,9 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import AnimatedLetters from '../AnimatedLetters';
 import './index.scss';
-import KiLogoOutline from '../../assets/images/KiLogoOutline';
 import Loader from 'react-loaders';
 import Resume from '../../assets/resume/SHI_VICKY_RESUME.pdf';
+import kiIcon from '../../assets/images/ki-icon.png';
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate');
@@ -63,7 +63,7 @@ const Home = () => {
             </Link>
           </div>
         </div>
-        <KiLogoOutline className="ki-logo-outline" />
+        <img src={kiIcon} className="ki-icon" alt="profile" />
       </div>
       <Loader type="ball-scale-multiple" />
     </>

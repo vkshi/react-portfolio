@@ -77,50 +77,49 @@
   }
 }
 
-.ki-logo-outline {
+.ki-icon {
   @media only screen and (max-width: 960px) {
     display: none;
   }
   z-index: -2;
-  width: 45%;
-  height: 100%;
   position: absolute;
-  bottom: 0;
-  right: 1%;
-  left: auto;
-  margin: auto;
-  animation: colorRotate 10s linear infinite;
+  margin-left: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 10px solid #fff;
+  border-radius: 100%;
+  animation: colorRotateBorder 10s linear infinite;
 }
 
-@keyframes colorRotate {
+@keyframes colorRotateBorder {
   from {
-    stroke: #ff8080;
+    border: 10px solid #ff8080;
   }
   12.5% {
-    stroke: #ffb580;
+    border: 10px solid #ffb580;
   }
   25% {
-    stroke: #ffea80;
+    border: 10px solid #ffea80;
   }
   37.5% {
-    stroke: #8aff80;
+    border: 10px solid #8aff80;
   }
   50% {
-    color: #80ffdf;
+    border: 10px solid #80ffdf;
   }
   62.5% {
-    stroke: #80b5ff;
+    border: 10px solid #80b5ff;
   }
   75% {
-    stroke: #8a80ff;
+    border: 10px solid #8a80ff;
   }
   87.5% {
-    stroke: #d580ff;
+    border: 10px solid #d580ff;
   }
   100% {
-    stroke: #ff80ca;
+    border: 10px solid #ff80ca;
   }
   0% {
-    color: #ff80ca;
+    border: 10px solid #ff80ca;
   }
 }
