@@ -42,12 +42,12 @@ const About = () => {
             my first job and my undergraduate coursework.
           </p>
           <p>
-            I am trained in graphic design, branding, and web development via
-            the Adobe Suite, Figma, HTML, CSS/SCSS, Javascript, and React.js. I
-            can also do some object-oriented programming with Java and data
-            analysis with Python/Panda, but I prefer the frontend. I am an eager
-            student and will happily engage with other coding languages if given
-            a chance to learn them.
+            I am trained in UI/frontend development and design via the HTML,
+            CSS, and React.js with Typescript along with Figma and the Adobe
+            Creative Suite. I can also do some object-oriented programming with
+            Java and data analysis with Python/Panda, but I prefer the frontend.
+            I am an eager student and will happily engage with other coding
+            languages if given a chance to learn them.
           </p>
 
           <p>

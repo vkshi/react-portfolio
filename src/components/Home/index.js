@@ -8,7 +8,7 @@ import kiIcon from '../../assets/images/ki-icon.png';
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate');
-  const jobArray = ['designer + developer'.split('')];
+  const jobArray = ['developer + designer'.split('')];
 
   useEffect(() => {
     setTimeout(() => {
@@ -42,9 +42,9 @@ const Home = () => {
             />
           </h1>
           <h2>
-            I'm an <b>UX Engineer</b> based in San Francisco, CA with experience
-            in designing and deploying websites. I also work in graphic and ad
-            design.
+            I'm an <b>UI/Frontend Developer</b> with
+            experience in coding websites in HTML, CSS, and React.js with
+            Typescript.
           </h2>
           <div className="button-container">
             <a
