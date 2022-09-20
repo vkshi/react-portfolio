@@ -42,9 +42,8 @@ const Home = () => {
             />
           </h1>
           <h2>
-            I'm an <b>UI/Frontend Developer</b> with
-            experience in coding websites in HTML, CSS, and React.js with
-            Typescript.
+            I'm an <b>UI/Frontend Developer</b> with experience in coding
+            websites in HTML, CSS, and React.js with Typescript.
           </h2>
           <div className="button-container">
             <a
